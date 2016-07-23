@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39BCE406ED1C9F1D95EC3779 /* libPods-Ache!.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC78D06E4A28EBE605BC4A25 /* libPods-Ache!.a */; };
 		436D289C1D43AE030024CF23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D289B1D43AE030024CF23 /* main.m */; };
 		436D289F1D43AE030024CF23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D289E1D43AE030024CF23 /* AppDelegate.m */; };
 		436D28A21D43AE030024CF23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D28A11D43AE030024CF23 /* ViewController.m */; };
@@ -51,6 +52,9 @@
 		436D28BB1D43AE030024CF23 /* Ache!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ache!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		436D28BF1D43AE030024CF23 /* Ache_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ache_UITests.m; sourceTree = "<group>"; };
 		436D28C11D43AE030024CF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC78D06E4A28EBE605BC4A25 /* libPods-Ache!.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ache!.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2CC507C2B6C2909C931D19 /* Pods-Ache!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ache!.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ache!/Pods-Ache!.release.xcconfig"; sourceTree = "<group>"; };
+		F5BC10A5CAADA33C69B8094A /* Pods-Ache!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ache!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ache!/Pods-Ache!.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39BCE406ED1C9F1D95EC3779 /* libPods-Ache!.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12BEEF5B10F188CFF2073360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC78D06E4A28EBE605BC4A25 /* libPods-Ache!.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		436D288E1D43AE030024CF23 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,8 @@
 				436D28B31D43AE030024CF23 /* Ache!Tests */,
 				436D28BE1D43AE030024CF23 /* Ache!UITests */,
 				436D28981D43AE030024CF23 /* Products */,
+				E03E99672BD788F1B4913A7B /* Pods */,
+				12BEEF5B10F188CFF2073360 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +155,15 @@
 			path = "Ache!UITests";
 			sourceTree = "<group>";
 		};
+		E03E99672BD788F1B4913A7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC10A5CAADA33C69B8094A /* Pods-Ache!.debug.xcconfig */,
+				CE2CC507C2B6C2909C931D19 /* Pods-Ache!.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 436D28C41D43AE030024CF23 /* Build configuration list for PBXNativeTarget "Ache!" */;
 			buildPhases = (
+				92A1381A1FFAE5C7C942B497 /* 📦 Check Pods Manifest.lock */,
 				436D28931D43AE030024CF23 /* Sources */,
 				436D28941D43AE030024CF23 /* Frameworks */,
 				436D28951D43AE030024CF23 /* Resources */,
+				3D8EDE39D32E7ED1D1E2F6EB /* 📦 Embed Pods Frameworks */,
+				7FF26C371FF21F78A88CB5D3 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +293,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D8EDE39D32E7ED1D1E2F6EB /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ache!/Pods-Ache!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FF26C371FF21F78A88CB5D3 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ache!/Pods-Ache!-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92A1381A1FFAE5C7C942B497 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		436D28931D43AE030024CF23 /* Sources */ = {
@@ -415,6 +490,7 @@
 		};
 		436D28C51D43AE030024CF23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5BC10A5CAADA33C69B8094A /* Pods-Ache!.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -427,6 +503,7 @@
 		};
 		436D28C61D43AE030024CF23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2CC507C2B6C2909C931D19 /* Pods-Ache!.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -502,6 +579,7 @@
 				436D28C61D43AE030024CF23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		436D28C71D43AE030024CF23 /* Build configuration list for PBXNativeTarget "Ache!Tests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +588,7 @@
 				436D28C91D43AE030024CF23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		436D28CA1D43AE030024CF23 /* Build configuration list for PBXNativeTarget "Ache!UITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +597,7 @@
 				436D28CC1D43AE030024CF23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
