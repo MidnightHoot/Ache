@@ -1,16 +1,14 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  Ache!
 //
-//  Created by Departures on 7/23/16.
+//  Created by Departures on 7/26/16.
 //  Copyright © 2016 MidnightHoot. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-/**
- *  主界面
- */
-@interface ViewController : UIViewController
+
+@interface MainViewController : UIViewController
 
 /**
  *  健康报告Button
@@ -58,4 +56,3 @@
 - (IBAction)imageButtonDidPress:(id)sender;
 
 @end
-
