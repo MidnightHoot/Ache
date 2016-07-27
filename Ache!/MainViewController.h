@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import<HealthKit/HealthKit.h>
 
 @interface MainViewController : UIViewController
 
@@ -29,6 +30,9 @@
  *  那个神奇的头像Button
  */
 @property (weak, nonatomic) IBOutlet UIButton *imageButton;
+
+
+@property(nonatomic, strong) HKHealthStore *healthStore;     //HealthKIt
 
 
 
