@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		39BCE406ED1C9F1D95EC3779 /* libPods-Ache!.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC78D06E4A28EBE605BC4A25 /* libPods-Ache!.a */; };
+		430514C61D49072D0076628F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430514C51D49072D0076628F /* HealthKit.framework */; };
 		4364E43F1D47A4F8008ADE02 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4364E43E1D47A4F8008ADE02 /* MainViewController.m */; };
 		436D289C1D43AE030024CF23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D289B1D43AE030024CF23 /* main.m */; };
 		436D289F1D43AE030024CF23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D289E1D43AE030024CF23 /* AppDelegate.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		430514C41D49069E0076628F /* Ache!.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Ache!.entitlements"; sourceTree = "<group>"; };
+		430514C51D49072D0076628F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		4364E43D1D47A4F8008ADE02 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4364E43E1D47A4F8008ADE02 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		436D28971D43AE030024CF23 /* Ache!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ache!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39BCE406ED1C9F1D95EC3779 /* libPods-Ache!.a in Frameworks */,
+				430514C61D49072D0076628F /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +90,7 @@
 		12BEEF5B10F188CFF2073360 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				430514C51D49072D0076628F /* HealthKit.framework */,
 				CC78D06E4A28EBE605BC4A25 /* libPods-Ache!.a */,
 			);
 			name = Frameworks;
@@ -144,6 +149,7 @@
 		436D28991D43AE030024CF23 /* Ache! */ = {
 			isa = PBXGroup;
 			children = (
+				430514C41D49069E0076628F /* Ache!.entitlements */,
 				4364E4401D47A502008ADE02 /* ViewController */,
 				430DA1061D43BC5400F8898C /* Storyboard */,
 				430DA1071D43BC6500F8898C /* OtherClass */,
@@ -258,6 +264,12 @@
 				TargetAttributes = {
 					436D28961D43AE030024CF23 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9HSQ457UE9;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					436D28AF1D43AE030024CF23 = {
 						CreatedOnToolsVersion = 7.3;
@@ -517,10 +529,11 @@
 			baseConfigurationReference = F5BC10A5CAADA33C69B8094A /* Pods-Ache!.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ache!/Ache!.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Ache!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MidnightHoot.Ache.Ache-";
+				PRODUCT_BUNDLE_IDENTIFIER = MidnightHoot.Ache.Ache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -530,10 +543,11 @@
 			baseConfigurationReference = CE2CC507C2B6C2909C931D19 /* Pods-Ache!.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ache!/Ache!.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Ache!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MidnightHoot.Ache.Ache-";
+				PRODUCT_BUNDLE_IDENTIFIER = MidnightHoot.Ache.Ache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
