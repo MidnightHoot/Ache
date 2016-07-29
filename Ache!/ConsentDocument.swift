@@ -24,7 +24,7 @@ public var ConsentDocument:ORKConsentDocument{
         let consentSections: [ORKConsentSection] = consentSectionTypes.map { contentSectionType in
         let consentSection = ORKConsentSection(type: contentSectionType)
         consentSection.summary = "本研究将帮助我们了解不同消化系统疾病对心理状况的影响"
-        consentSection.content = "调查将不占用超过您2分钟的时间，您一共需要回答23道题"
+        consentSection.content = "调查将不占用超过您2分钟的时间，您一共需要回答十道题"
         
         return consentSection
 
