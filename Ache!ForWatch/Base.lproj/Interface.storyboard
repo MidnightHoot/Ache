@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <scenes>
+        <!--Main-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="Main" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Ache_ForWatch" customModuleProvider="target">
+                    <items>
+                        <label width="136" height="30.5" alignment="center" text="请问您哪儿疼？" id="Qup-sY-h5U"/>
+                        <button width="1" height="53.5" alignment="center" title="我不舒服" id="mqZ-Xg-zIE">
+                            <color key="titleColor" red="0.96851083931659454" green="1" blue="0.98211856006721121" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="VpW-dY-fqL" kind="push" id="yCu-uj-BZS"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="5A0-rf-Iyj"/>
+                        <button width="1" height="53.5" alignment="center" verticalAlignment="bottom" title="我的健康记录" id="jg4-og-27N">
+                            <connections>
+                                <segue destination="8na-IX-eA9" kind="push" id="FMR-kr-eOS"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="245" y="293"/>
+        </scene>
+        <!--Interface Record-->
+        <scene sceneID="jEg-wq-WyN">
+            <objects>
+                <controller id="8na-IX-eA9" customClass="WKInterfaceRecord"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="733"/>
+        </scene>
+        <!--Research-->
+        <scene sceneID="KrC-aC-qcp">
+            <objects>
+                <controller identifier="Research" id="VpW-dY-fqL" customClass="ResearchController" customModule="AcheForWatch_Extension">
+                    <items>
+                        <label alignment="left" text="Label" id="uie-hK-p47"/>
+                        <separator alignment="left" id="fdW-nT-cj3"/>
+                        <group width="1" alignment="left" id="jgO-mH-LOB"/>
+                    </items>
+                    <connections>
+                        <outlet property="DiseaseIdentifier" destination="uie-hK-p47" id="MST-3T-SVg"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="486" y="293"/>
+        </scene>
+    </scenes>
+</document>
