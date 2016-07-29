@@ -17,6 +17,12 @@
 		436D28AA1D43AE030024CF23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436D28A81D43AE030024CF23 /* LaunchScreen.storyboard */; };
 		436D28B51D43AE030024CF23 /* Ache_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D28B41D43AE030024CF23 /* Ache_Tests.m */; };
 		436D28C01D43AE030024CF23 /* Ache_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D28BF1D43AE030024CF23 /* Ache_UITests.m */; };
+		6E265EEC1D4B058C00330D6E /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E265EE91D4B055E00330D6E /* ResearchKit.framework */; };
+		6E265EED1D4B058C00330D6E /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E265EE91D4B055E00330D6E /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6E265EF31D4B12AC00330D6E /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E265EF21D4B12AC00330D6E /* ConsentDocument.swift */; };
+		6E265EF51D4B34D800330D6E /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E265EF41D4B34D800330D6E /* ConsentTask.swift */; };
+		6E265EFF1D4B40A200330D6E /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E265EFE1D4B40A200330D6E /* MyViewController.swift */; };
+		6E265F061D4B495F00330D6E /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E265F051D4B495F00330D6E /* SurveyTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +40,42 @@
 			remoteGlobalIDString = 436D28961D43AE030024CF23;
 			remoteInfo = "Ache!";
 		};
+		6E265EE81D4B055E00330D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E265EE21D4B055E00330D6E /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B183A5951A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+		6E265EEA1D4B055E00330D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E265EE21D4B055E00330D6E /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
+			remoteInfo = ResearchKitTests;
+		};
+		6E265EEE1D4B058C00330D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E265EE21D4B055E00330D6E /* ResearchKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B183A4731A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6E265EF01D4B058C00330D6E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6E265EED1D4B058C00330D6E /* ResearchKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		430514C41D49069E0076628F /* Ache!.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Ache!.entitlements"; sourceTree = "<group>"; };
@@ -55,6 +96,12 @@
 		436D28BB1D43AE030024CF23 /* Ache!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ache!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		436D28BF1D43AE030024CF23 /* Ache_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ache_UITests.m; sourceTree = "<group>"; };
 		436D28C11D43AE030024CF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E265EE21D4B055E00330D6E /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ../ResearchKit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
+		6E265EF11D4B12AB00330D6E /* Ache!-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ache!-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E265EF21D4B12AC00330D6E /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
+		6E265EF41D4B34D800330D6E /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
+		6E265EFE1D4B40A200330D6E /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		6E265F051D4B495F00330D6E /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
 		CC78D06E4A28EBE605BC4A25 /* libPods-Ache!.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ache!.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2CC507C2B6C2909C931D19 /* Pods-Ache!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ache!.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ache!/Pods-Ache!.release.xcconfig"; sourceTree = "<group>"; };
 		F5BC10A5CAADA33C69B8094A /* Pods-Ache!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ache!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ache!/Pods-Ache!.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +114,7 @@
 			files = (
 				39BCE406ED1C9F1D95EC3779 /* libPods-Ache!.a in Frameworks */,
 				430514C61D49072D0076628F /* HealthKit.framework in Frameworks */,
+				6E265EEC1D4B058C00330D6E /* ResearchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +138,7 @@
 		12BEEF5B10F188CFF2073360 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E265EE21D4B055E00330D6E /* ResearchKit.xcodeproj */,
 				430514C51D49072D0076628F /* HealthKit.framework */,
 				CC78D06E4A28EBE605BC4A25 /* libPods-Ache!.a */,
 			);
@@ -100,7 +149,11 @@
 			isa = PBXGroup;
 			children = (
 				436D28A31D43AE030024CF23 /* Main.storyboard */,
+				6E265EF21D4B12AC00330D6E /* ConsentDocument.swift */,
+				6E265EF41D4B34D800330D6E /* ConsentTask.swift */,
 				436D28A81D43AE030024CF23 /* LaunchScreen.storyboard */,
+				6E265EF11D4B12AB00330D6E /* Ache!-Bridging-Header.h */,
+				6E265F051D4B495F00330D6E /* SurveyTask.swift */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -120,6 +173,7 @@
 			children = (
 				4364E43D1D47A4F8008ADE02 /* MainViewController.h */,
 				4364E43E1D47A4F8008ADE02 /* MainViewController.m */,
+				6E265EFE1D4B40A200330D6E /* MyViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -185,6 +239,15 @@
 			path = "Ache!UITests";
 			sourceTree = "<group>";
 		};
+		6E265EE31D4B055E00330D6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E265EE91D4B055E00330D6E /* ResearchKit.framework */,
+				6E265EEB1D4B055E00330D6E /* ResearchKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E03E99672BD788F1B4913A7B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,10 +270,12 @@
 				436D28951D43AE030024CF23 /* Resources */,
 				3D8EDE39D32E7ED1D1E2F6EB /* 📦 Embed Pods Frameworks */,
 				7FF26C371FF21F78A88CB5D3 /* 📦 Copy Pods Resources */,
+				6E265EF01D4B058C00330D6E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6E265EEF1D4B058C00330D6E /* PBXTargetDependency */,
 			);
 			name = "Ache!";
 			productName = "Ache!";
@@ -264,7 +329,7 @@
 				TargetAttributes = {
 					436D28961D43AE030024CF23 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 9HSQ457UE9;
+						DevelopmentTeam = T4Z3E76Q2L;
 						SystemCapabilities = {
 							com.apple.HealthKit = {
 								enabled = 1;
@@ -294,6 +359,12 @@
 			mainGroup = 436D288E1D43AE030024CF23;
 			productRefGroup = 436D28981D43AE030024CF23 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6E265EE31D4B055E00330D6E /* Products */;
+					ProjectRef = 6E265EE21D4B055E00330D6E /* ResearchKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				436D28961D43AE030024CF23 /* Ache! */,
@@ -302,6 +373,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6E265EE91D4B055E00330D6E /* ResearchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResearchKit.framework;
+			remoteRef = 6E265EE81D4B055E00330D6E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E265EEB1D4B055E00330D6E /* ResearchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResearchKitTests.xctest;
+			remoteRef = 6E265EEA1D4B055E00330D6E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		436D28951D43AE030024CF23 /* Resources */ = {
@@ -384,7 +472,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				436D289F1D43AE030024CF23 /* AppDelegate.m in Sources */,
+				6E265EF31D4B12AC00330D6E /* ConsentDocument.swift in Sources */,
+				6E265EF51D4B34D800330D6E /* ConsentTask.swift in Sources */,
 				436D289C1D43AE030024CF23 /* main.m in Sources */,
+				6E265F061D4B495F00330D6E /* SurveyTask.swift in Sources */,
+				6E265EFF1D4B40A200330D6E /* MyViewController.swift in Sources */,
 				4364E43F1D47A4F8008ADE02 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +509,11 @@
 			isa = PBXTargetDependency;
 			target = 436D28961D43AE030024CF23 /* Ache! */;
 			targetProxy = 436D28BC1D43AE030024CF23 /* PBXContainerItemProxy */;
+		};
+		6E265EEF1D4B058C00330D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ResearchKit;
+			targetProxy = 6E265EEE1D4B058C00330D6E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -529,12 +626,18 @@
 			baseConfigurationReference = F5BC10A5CAADA33C69B8094A /* Pods-Ache!.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Ache!/Ache!.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Ache!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MidnightHoot.Ache.Ache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ache!/Ache!-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -543,12 +646,17 @@
 			baseConfigurationReference = CE2CC507C2B6C2909C931D19 /* Pods-Ache!.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Ache!/Ache!.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Ache!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MidnightHoot.Ache.Ache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ache!/Ache!-Bridging-Header.h";
 			};
 			name = Release;
 		};
