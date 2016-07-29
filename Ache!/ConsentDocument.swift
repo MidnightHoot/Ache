@@ -27,7 +27,7 @@ public var ConsentDocument:ORKConsentDocument{
         consentSection.content = "调查将不占用超过您2分钟的时间，您一共需要回答23道题"
         
         return consentSection
-    //var改为了let
+
     
     }
     

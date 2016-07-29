@@ -23,6 +23,7 @@
 		6E265EF51D4B34D800330D6E /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E265EF41D4B34D800330D6E /* ConsentTask.swift */; };
 		6E265EFF1D4B40A200330D6E /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E265EFE1D4B40A200330D6E /* MyViewController.swift */; };
 		6E265F061D4B495F00330D6E /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E265F051D4B495F00330D6E /* SurveyTask.swift */; };
+		6ED0AC811D4B8D2D00161F15 /* SurveyResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED0AC801D4B8D2D00161F15 /* SurveyResults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		6E265EF41D4B34D800330D6E /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
 		6E265EFE1D4B40A200330D6E /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		6E265F051D4B495F00330D6E /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
+		6ED0AC801D4B8D2D00161F15 /* SurveyResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyResults.swift; sourceTree = "<group>"; };
 		CC78D06E4A28EBE605BC4A25 /* libPods-Ache!.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ache!.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2CC507C2B6C2909C931D19 /* Pods-Ache!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ache!.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ache!/Pods-Ache!.release.xcconfig"; sourceTree = "<group>"; };
 		F5BC10A5CAADA33C69B8094A /* Pods-Ache!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ache!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ache!/Pods-Ache!.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				436D28A81D43AE030024CF23 /* LaunchScreen.storyboard */,
 				6E265EF11D4B12AB00330D6E /* Ache!-Bridging-Header.h */,
 				6E265F051D4B495F00330D6E /* SurveyTask.swift */,
+				6ED0AC801D4B8D2D00161F15 /* SurveyResults.swift */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 				436D289C1D43AE030024CF23 /* main.m in Sources */,
 				6E265F061D4B495F00330D6E /* SurveyTask.swift in Sources */,
 				6E265EFF1D4B40A200330D6E /* MyViewController.swift in Sources */,
+				6ED0AC811D4B8D2D00161F15 /* SurveyResults.swift in Sources */,
 				4364E43F1D47A4F8008ADE02 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

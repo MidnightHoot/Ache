@@ -25,11 +25,7 @@ public var ConsentTask: ORKOrderedTask {
     steps += [reviewConsentStep]
 
 
-    
-    //2lan var 改为 let
-    
-    
-    
+        
     
     
     
