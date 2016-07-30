@@ -12,7 +12,7 @@ import ResearchKit
 extension MyViewController : ORKTaskViewControllerDelegate {
     
     func taskViewController(taskViewController: ORKTaskViewController, didFinishWithReason reason: ORKTaskViewControllerFinishReason, error: NSError?) {
-        //Handle results with taskViewController.result
+
         taskViewController.dismissViewControllerAnimated(true, completion: nil)
     }
     
@@ -24,13 +24,11 @@ class MyViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+            }
     
 
     /*
@@ -43,12 +41,30 @@ class MyViewController: UIViewController {
     }
     */
 
-
     
     @IBAction func consentTapped(sender : AnyObject) {
-        let taskViewController = ORKTaskViewController(task: ConsentTask, taskRunUUID: nil)
+        let consentDocument = ConsentDocument()
+        let consentStep = ORKVisualConsentStep(identifier: "VisualConsentStep", document: consentDocument)
+        let signature = consentDocument.signatures!.first!
+        
+        let reviewConsentStep = ORKConsentReviewStep(identifier: "ConsentReviewStep", signature: signature, inDocument: consentDocument)
+        
+        reviewConsentStep.text = "Review the consent form."
+        reviewConsentStep.reasonForConsent = "Consent to join the Developer Health Research Study."
+        
+        let completionStep = ORKCompletionStep(identifier: "CompletionStep")
+        completionStep.title = "Welcome aboard."
+        completionStep.text = "Thank you for joining this study."
+        
+        let orderedTask = ORKOrderedTask(identifier: "Join", steps: [consentStep, reviewConsentStep, completionStep])
+
+        let taskViewController = ORKTaskViewController(task: orderedTask, taskRunUUID: nil)
         taskViewController.delegate = self
+        
         presentViewController(taskViewController, animated: true, completion: nil)
+
+
+
     }
     
     @IBAction func surveyTapped(sender : AnyObject) {
