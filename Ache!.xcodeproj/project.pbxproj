@@ -8,7 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		39BCE406ED1C9F1D95EC3779 /* libPods-Ache!.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC78D06E4A28EBE605BC4A25 /* libPods-Ache!.a */; };
-		4065BB131D4B5A50002B7150 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065BB121D4B5A50002B7150 /* BMI.swift */; };
+		403E51551D4CD12C002BF036 /* ResearchController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E51541D4CD12C002BF036 /* ResearchController2.swift */; };
+		403E51561D4CD12C002BF036 /* ResearchController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E51541D4CD12C002BF036 /* ResearchController2.swift */; };
+		403E51581D4CD156002BF036 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E51571D4CD156002BF036 /* MainController.swift */; };
+		403E51591D4CD156002BF036 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E51571D4CD156002BF036 /* MainController.swift */; };
+		403E515B1D4CD237002BF036 /* TipsMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E515A1D4CD237002BF036 /* TipsMainController.swift */; };
+		403E515C1D4CD237002BF036 /* TipsMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E515A1D4CD237002BF036 /* TipsMainController.swift */; };
+		403E515E1D4CD6D9002BF036 /* TipsController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E515D1D4CD6D9002BF036 /* TipsController1.swift */; };
+		403E515F1D4CD6D9002BF036 /* TipsController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E515D1D4CD6D9002BF036 /* TipsController1.swift */; };
+		403E51611D4CE01F002BF036 /* TipsController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E51601D4CE01F002BF036 /* TipsController2.swift */; };
+		403E51621D4CE01F002BF036 /* TipsController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E51601D4CE01F002BF036 /* TipsController2.swift */; };
+		403E51641D4CE3CE002BF036 /* TipsController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E51631D4CE3CE002BF036 /* TipsController3.swift */; };
+		403E51651D4CE3CE002BF036 /* TipsController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E51631D4CE3CE002BF036 /* TipsController3.swift */; };
+		403E51671D4CE6D9002BF036 /* TipsController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E51661D4CE6D9002BF036 /* TipsController4.swift */; };
+		403E51681D4CE6D9002BF036 /* TipsController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E51661D4CE6D9002BF036 /* TipsController4.swift */; };
+		405CB03C1D4C9D0B00ADDB78 /* ResearchController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F609F91D4BC0A7002BCDE2 /* ResearchController1.swift */; };
+		40F609D61D4BA04C002BCDE2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F609D41D4BA04C002BCDE2 /* Interface.storyboard */; };
+		40F609D81D4BA04C002BCDE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F609D71D4BA04C002BCDE2 /* Assets.xcassets */; };
+		40F609DF1D4BA04C002BCDE2 /* AcheForWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 40F609DE1D4BA04C002BCDE2 /* AcheForWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		40F609E41D4BA04C002BCDE2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F609E31D4BA04C002BCDE2 /* InterfaceController.swift */; };
+		40F609E61D4BA04C002BCDE2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F609E51D4BA04C002BCDE2 /* ExtensionDelegate.swift */; };
+		40F609E81D4BA04C002BCDE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F609E71D4BA04C002BCDE2 /* Assets.xcassets */; };
+		40F609EC1D4BA04C002BCDE2 /* AcheForWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 40F609D21D4BA04B002BCDE2 /* AcheForWatch.app */; };
+		40F609F61D4BA78C002BCDE2 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F609F51D4BA78C002BCDE2 /* libsqlite3.0.tbd */; };
+		40F609F81D4BB6C5002BCDE2 /* ResearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F609F71D4BB6C5002BCDE2 /* ResearchController.swift */; };
+		40F609FA1D4BC0A7002BCDE2 /* ResearchController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F609F91D4BC0A7002BCDE2 /* ResearchController1.swift */; };
 		4364E43F1D47A4F8008ADE02 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4364E43E1D47A4F8008ADE02 /* MainViewController.m */; };
 		436D289C1D43AE030024CF23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D289B1D43AE030024CF23 /* main.m */; };
 		436D289F1D43AE030024CF23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D289E1D43AE030024CF23 /* AppDelegate.m */; };
@@ -20,6 +44,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		40F609E01D4BA04C002BCDE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 436D288F1D43AE030024CF23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F609DD1D4BA04C002BCDE2;
+			remoteInfo = "AcheForWatch Extension";
+		};
+		40F609EA1D4BA04C002BCDE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 436D288F1D43AE030024CF23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F609D11D4BA04B002BCDE2;
+			remoteInfo = AcheForWatch;
+		};
 		436D28B11D43AE030024CF23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 436D288F1D43AE030024CF23 /* Project object */;
@@ -36,9 +74,52 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		40F609F21D4BA04C002BCDE2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				40F609DF1D4BA04C002BCDE2 /* AcheForWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F609F41D4BA04C002BCDE2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				40F609EC1D4BA04C002BCDE2 /* AcheForWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		403E51541D4CD12C002BF036 /* ResearchController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResearchController2.swift; path = ../AcheForWatch/ResearchController2.swift; sourceTree = "<group>"; };
+		403E51571D4CD156002BF036 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		403E515A1D4CD237002BF036 /* TipsMainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsMainController.swift; sourceTree = "<group>"; };
+		403E515D1D4CD6D9002BF036 /* TipsController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsController1.swift; sourceTree = "<group>"; };
+		403E51601D4CE01F002BF036 /* TipsController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsController2.swift; sourceTree = "<group>"; };
+		403E51631D4CE3CE002BF036 /* TipsController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsController3.swift; sourceTree = "<group>"; };
+		403E51661D4CE6D9002BF036 /* TipsController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsController4.swift; sourceTree = "<group>"; };
 		4065BB111D4B5A50002B7150 /* Ache!-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ache!-Bridging-Header.h"; sourceTree = "<group>"; };
-		4065BB121D4B5A50002B7150 /* BMI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
+		40F609D21D4BA04B002BCDE2 /* AcheForWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcheForWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F609D51D4BA04C002BCDE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		40F609D71D4BA04C002BCDE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40F609D91D4BA04C002BCDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F609DE1D4BA04C002BCDE2 /* AcheForWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AcheForWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F609E31D4BA04C002BCDE2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		40F609E51D4BA04C002BCDE2 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		40F609E71D4BA04C002BCDE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40F609E91D4BA04C002BCDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F609F51D4BA78C002BCDE2 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/usr/lib/libsqlite3.0.tbd; sourceTree = DEVELOPER_DIR; };
+		40F609F71D4BB6C5002BCDE2 /* ResearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResearchController.swift; sourceTree = "<group>"; };
+		40F609F91D4BC0A7002BCDE2 /* ResearchController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResearchController1.swift; path = ../AcheForWatch/ResearchController1.swift; sourceTree = "<group>"; };
 		4364E43D1D47A4F8008ADE02 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4364E43E1D47A4F8008ADE02 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		436D28971D43AE030024CF23 /* Ache!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ache!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +142,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		40F609DB1D4BA04C002BCDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F609F61D4BA78C002BCDE2 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		436D28941D43AE030024CF23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,6 +178,7 @@
 		12BEEF5B10F188CFF2073360 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				40F609F51D4BA78C002BCDE2 /* libsqlite3.0.tbd */,
 				CC78D06E4A28EBE605BC4A25 /* libPods-Ache!.a */,
 			);
 			name = Frameworks;
@@ -97,10 +187,39 @@
 		4065BB101D4B5A3C002B7150 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				4065BB121D4B5A50002B7150 /* BMI.swift */,
 				4065BB111D4B5A50002B7150 /* Ache!-Bridging-Header.h */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		40F609D31D4BA04C002BCDE2 /* AcheForWatch */ = {
+			isa = PBXGroup;
+			children = (
+				40F609D41D4BA04C002BCDE2 /* Interface.storyboard */,
+				40F609D71D4BA04C002BCDE2 /* Assets.xcassets */,
+				40F609D91D4BA04C002BCDE2 /* Info.plist */,
+			);
+			path = AcheForWatch;
+			sourceTree = "<group>";
+		};
+		40F609E21D4BA04C002BCDE2 /* AcheForWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				403E51661D4CE6D9002BF036 /* TipsController4.swift */,
+				403E51631D4CE3CE002BF036 /* TipsController3.swift */,
+				403E51601D4CE01F002BF036 /* TipsController2.swift */,
+				403E515D1D4CD6D9002BF036 /* TipsController1.swift */,
+				403E515A1D4CD237002BF036 /* TipsMainController.swift */,
+				403E51571D4CD156002BF036 /* MainController.swift */,
+				403E51541D4CD12C002BF036 /* ResearchController2.swift */,
+				40F609F91D4BC0A7002BCDE2 /* ResearchController1.swift */,
+				40F609E31D4BA04C002BCDE2 /* InterfaceController.swift */,
+				40F609E51D4BA04C002BCDE2 /* ExtensionDelegate.swift */,
+				40F609E71D4BA04C002BCDE2 /* Assets.xcassets */,
+				40F609E91D4BA04C002BCDE2 /* Info.plist */,
+				40F609F71D4BB6C5002BCDE2 /* ResearchController.swift */,
+			);
+			path = "AcheForWatch Extension";
 			sourceTree = "<group>";
 		};
 		430DA1061D43BC5400F8898C /* Storyboard */ = {
@@ -138,6 +257,8 @@
 				436D28991D43AE030024CF23 /* Ache! */,
 				436D28B31D43AE030024CF23 /* Ache!Tests */,
 				436D28BE1D43AE030024CF23 /* Ache!UITests */,
+				40F609D31D4BA04C002BCDE2 /* AcheForWatch */,
+				40F609E21D4BA04C002BCDE2 /* AcheForWatch Extension */,
 				436D28981D43AE030024CF23 /* Products */,
 				E03E99672BD788F1B4913A7B /* Pods */,
 				12BEEF5B10F188CFF2073360 /* Frameworks */,
@@ -150,6 +271,8 @@
 				436D28971D43AE030024CF23 /* Ache!.app */,
 				436D28B01D43AE030024CF23 /* Ache!Tests.xctest */,
 				436D28BB1D43AE030024CF23 /* Ache!UITests.xctest */,
+				40F609D21D4BA04B002BCDE2 /* AcheForWatch.app */,
+				40F609DE1D4BA04C002BCDE2 /* AcheForWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,6 +327,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		40F609D11D4BA04B002BCDE2 /* AcheForWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F609F31D4BA04C002BCDE2 /* Build configuration list for PBXNativeTarget "AcheForWatch" */;
+			buildPhases = (
+				40F609D01D4BA04B002BCDE2 /* Resources */,
+				40F609F21D4BA04C002BCDE2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40F609E11D4BA04C002BCDE2 /* PBXTargetDependency */,
+			);
+			name = AcheForWatch;
+			productName = AcheForWatch;
+			productReference = 40F609D21D4BA04B002BCDE2 /* AcheForWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		40F609DD1D4BA04C002BCDE2 /* AcheForWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F609F11D4BA04C002BCDE2 /* Build configuration list for PBXNativeTarget "AcheForWatch Extension" */;
+			buildPhases = (
+				40F609DA1D4BA04C002BCDE2 /* Sources */,
+				40F609DB1D4BA04C002BCDE2 /* Frameworks */,
+				40F609DC1D4BA04C002BCDE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AcheForWatch Extension";
+			productName = "AcheForWatch Extension";
+			productReference = 40F609DE1D4BA04C002BCDE2 /* AcheForWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		436D28961D43AE030024CF23 /* Ache! */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 436D28C41D43AE030024CF23 /* Build configuration list for PBXNativeTarget "Ache!" */;
@@ -214,10 +371,12 @@
 				436D28951D43AE030024CF23 /* Resources */,
 				3D8EDE39D32E7ED1D1E2F6EB /* 📦 Embed Pods Frameworks */,
 				7FF26C371FF21F78A88CB5D3 /* 📦 Copy Pods Resources */,
+				40F609F41D4BA04C002BCDE2 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				40F609EB1D4BA04C002BCDE2 /* PBXTargetDependency */,
 			);
 			name = "Ache!";
 			productName = "Ache!";
@@ -266,9 +425,16 @@
 		436D288F1D43AE030024CF23 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = MidnightHoot;
 				TargetAttributes = {
+					40F609D11D4BA04B002BCDE2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					40F609DD1D4BA04C002BCDE2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					436D28961D43AE030024CF23 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -300,11 +466,30 @@
 				436D28961D43AE030024CF23 /* Ache! */,
 				436D28AF1D43AE030024CF23 /* Ache!Tests */,
 				436D28BA1D43AE030024CF23 /* Ache!UITests */,
+				40F609D11D4BA04B002BCDE2 /* AcheForWatch */,
+				40F609DD1D4BA04C002BCDE2 /* AcheForWatch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		40F609D01D4BA04B002BCDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F609D81D4BA04C002BCDE2 /* Assets.xcassets in Resources */,
+				40F609D61D4BA04C002BCDE2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F609DC1D4BA04C002BCDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F609E81D4BA04C002BCDE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		436D28951D43AE030024CF23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,14 +565,39 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		40F609DA1D4BA04C002BCDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F609E61D4BA04C002BCDE2 /* ExtensionDelegate.swift in Sources */,
+				403E51561D4CD12C002BF036 /* ResearchController2.swift in Sources */,
+				403E515C1D4CD237002BF036 /* TipsMainController.swift in Sources */,
+				40F609F81D4BB6C5002BCDE2 /* ResearchController.swift in Sources */,
+				405CB03C1D4C9D0B00ADDB78 /* ResearchController1.swift in Sources */,
+				403E51651D4CE3CE002BF036 /* TipsController3.swift in Sources */,
+				403E51681D4CE6D9002BF036 /* TipsController4.swift in Sources */,
+				403E515F1D4CD6D9002BF036 /* TipsController1.swift in Sources */,
+				403E51591D4CD156002BF036 /* MainController.swift in Sources */,
+				40F609E41D4BA04C002BCDE2 /* InterfaceController.swift in Sources */,
+				403E51621D4CE01F002BF036 /* TipsController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		436D28931D43AE030024CF23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4065BB131D4B5A50002B7150 /* BMI.swift in Sources */,
 				436D289F1D43AE030024CF23 /* AppDelegate.m in Sources */,
+				403E51551D4CD12C002BF036 /* ResearchController2.swift in Sources */,
+				403E515B1D4CD237002BF036 /* TipsMainController.swift in Sources */,
 				436D289C1D43AE030024CF23 /* main.m in Sources */,
+				40F609FA1D4BC0A7002BCDE2 /* ResearchController1.swift in Sources */,
+				403E51641D4CE3CE002BF036 /* TipsController3.swift in Sources */,
+				403E51671D4CE6D9002BF036 /* TipsController4.swift in Sources */,
+				403E515E1D4CD6D9002BF036 /* TipsController1.swift in Sources */,
+				403E51581D4CD156002BF036 /* MainController.swift in Sources */,
 				4364E43F1D47A4F8008ADE02 /* MainViewController.m in Sources */,
+				403E51611D4CE01F002BF036 /* TipsController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +620,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		40F609E11D4BA04C002BCDE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F609DD1D4BA04C002BCDE2 /* AcheForWatch Extension */;
+			targetProxy = 40F609E01D4BA04C002BCDE2 /* PBXContainerItemProxy */;
+		};
+		40F609EB1D4BA04C002BCDE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F609D11D4BA04B002BCDE2 /* AcheForWatch */;
+			targetProxy = 40F609EA1D4BA04C002BCDE2 /* PBXContainerItemProxy */;
+		};
 		436D28B21D43AE030024CF23 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 436D28961D43AE030024CF23 /* Ache! */;
@@ -423,6 +643,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		40F609D41D4BA04C002BCDE2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F609D51D4BA04C002BCDE2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		436D28A31D43AE030024CF23 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,6 +670,70 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		40F609ED1D4BA04C002BCDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = AcheForWatch_Extension;
+				INFOPLIST_FILE = AcheForWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "MidnightHoot.Ache.Ache-.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		40F609EE1D4BA04C002BCDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = AcheForWatch_Extension;
+				INFOPLIST_FILE = AcheForWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "MidnightHoot.Ache.Ache-.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		40F609EF1D4BA04C002BCDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AcheForWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MidnightHoot.Ache.Ache-.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		40F609F01D4BA04C002BCDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AcheForWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MidnightHoot.Ache.Ache-.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
 		436D28C21D43AE030024CF23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -606,6 +898,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		40F609F11D4BA04C002BCDE2 /* Build configuration list for PBXNativeTarget "AcheForWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F609EF1D4BA04C002BCDE2 /* Debug */,
+				40F609F01D4BA04C002BCDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F609F31D4BA04C002BCDE2 /* Build configuration list for PBXNativeTarget "AcheForWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F609ED1D4BA04C002BCDE2 /* Debug */,
+				40F609EE1D4BA04C002BCDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		436D28921D43AE030024CF23 /* Build configuration list for PBXProject "Ache!" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

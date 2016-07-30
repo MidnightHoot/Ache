@@ -29,10 +29,13 @@
 /**
  *  那个神奇的头像Button
  */
+@property (weak, nonatomic) IBOutlet UILabel *StepsNumLabel;// 步数Label
+
 @property (weak, nonatomic) IBOutlet UIButton *imageButton;
 
 
 @property(nonatomic, strong) HKHealthStore *healthStore;     //HealthKIt
+@property (weak, nonatomic) IBOutlet UILabel *BMILabel;//BMILabel
 
 
 

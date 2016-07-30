@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="AcheForWatch" customModuleProvider="target">
+                    <items>
+                        <button width="1" height="55.5" alignment="left" title="哪儿疼？" id="qm7-BM-5g6">
+                            <connections>
+                                <segue destination="G9i-Bt-3st" kind="push" id="dBa-JW-eEn"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="jbs-xR-Fzf"/>
+                        <button width="1" height="61.5" alignment="left" title="小贴士" id="8m2-Rm-gSK">
+                            <connections>
+                                <segue destination="aV2-bc-ydK" kind="push" id="k6H-cw-TmB"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="245" y="233"/>
+        </scene>
+        <!--Tips Controller1-->
+        <scene sceneID="cWj-Sr-PW7">
+            <objects>
+                <controller id="R9T-qf-gcD" customClass="TipsController1" customModule="AcheForWatch_Extension">
+                    <items>
+                        <label alignment="left" text="关于发热" id="eSc-aI-fmV"/>
+                        <separator alignment="left" id="nxP-jW-kfc"/>
+                        <label alignment="left" text="引起发热的原因很多，最常见的是细菌感染，病毒感染，胶原病等。发热对人体有利也有害。发热时人体免疫功能明显增强，这有利于清除病原体和促进疾病的痊愈。而且发热也是疾病的一个标志。" numberOfLines="0" id="3sr-BC-sYD"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-133" y="534"/>
+        </scene>
+        <!--Tips Controller2-->
+        <scene sceneID="ohs-HX-Tyy">
+            <objects>
+                <controller id="45U-K7-s6W" customClass="TipsController2" customModule="AcheForWatch_Extension">
+                    <items>
+                        <label alignment="left" text="关于疼痛" id="jMz-bv-aLV"/>
+                        <separator alignment="left" id="yi4-zG-Q4j"/>
+                        <label alignment="left" text="弯腰抱膝或前倾减疼痛减轻常是急性胰腺炎的重要表现，如遇症状，建议您及时就医。" numberOfLines="0" id="4w7-V8-aJH"/>
+                        <label alignment="left" text="胃痛位于中上腹部。肝胆疾患疼痛位于右上腹。急性阑尾炎疼痛常位于McBurney点。小肠绞痛位于脐周。结肠绞痛常位于下腹部。膀胱痛位于耻骨上部。急性下腹部痛也见于急性盆腔炎症。" numberOfLines="0" id="dS7-5t-vl5"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-133" y="963.25"/>
+        </scene>
+        <!--Tips Controller3-->
+        <scene sceneID="2nM-Sc-ISq">
+            <objects>
+                <controller id="oRw-vG-j2o" customClass="TipsController3" customModule="AcheForWatch_Extension">
+                    <items>
+                        <label alignment="left" text="关于吐泻" id="mvO-E1-5oq"/>
+                        <separator alignment="left" id="CGq-K0-pbl"/>
+                        <label alignment="left" text="吐泻交替者，须注意食物中毒、霍乱或副霍乱、急性中毒等。呕吐伴高热者须注意急性感染。" numberOfLines="0" id="Qfh-sR-QBM"/>
+                        <label alignment="left" text="呕血是指患者呕吐血液，由于上消化道急性出血所致。血液从肛门排出，粪便颜色呈鲜红、暗红或柏油样（黑便），均称为便血。便血多见于下消化道出血。" numberOfLines="0" id="yUv-Bg-2jY"/>
+                        <label alignment="left" text="腹泻与便秘交替是指一段时期内，不是便秘就是腹泻，两者交替出现。有时连续几天便秘，然后突然就腹泻。如果出现腹泻与便秘交换时，应警惕结肠炎。" numberOfLines="0" id="hPT-iR-Eua"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="112" y="1022.75"/>
+        </scene>
+        <!--Tips Main Controller-->
+        <scene sceneID="xRm-Of-Mgb">
+            <objects>
+                <controller id="aV2-bc-ydK" customClass="TipsMainController" customModule="AcheForWatch_Extension">
+                    <items>
+                        <button width="1" alignment="left" title="关于发热" id="Bfn-aM-6f6">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                            <connections>
+                                <segue destination="R9T-qf-gcD" kind="push" id="NwD-Y4-Wpk"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="37L-FB-Om4"/>
+                        <button width="1" alignment="left" title="关于疼痛" id="leW-b9-5h8">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                            <connections>
+                                <segue destination="45U-K7-s6W" kind="push" id="mTx-ox-abu"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="Yot-b4-kZ6"/>
+                        <button width="1" alignment="left" title="关于吐泻" id="qXl-9v-cM5">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                            <connections>
+                                <segue destination="oRw-vG-j2o" kind="push" id="KGP-qL-g0S"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="OhH-Jt-H9j"/>
+                        <button width="1" alignment="left" title="平时注意" id="C2I-4b-QZQ">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                            <connections>
+                                <segue destination="rvJ-Ec-yFk" kind="push" id="BKD-bs-4Qp"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <segue destination="R9T-qf-gcD" kind="relationship" relationship="nextPage" id="s2x-mu-Gay"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="245" y="538"/>
+        </scene>
+        <!--PreResearch-->
+        <scene sceneID="eQp-kF-o1B">
+            <objects>
+                <controller identifier="PreResearch" id="G9i-Bt-3st" customClass="ResearchController" customModule="AcheForWatch_Extension">
+                    <items>
+                        <table alignment="left" id="Lic-Nn-asw"/>
+                        <label alignment="center" text="您是否饮食不当或者暴饮暴食？" numberOfLines="0" id="3ft-Xg-Cm1"/>
+                        <separator alignment="left" id="4h6-Hu-MvM"/>
+                        <button width="1" alignment="center" title="是" id="Qws-RA-fuC">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                            <connections>
+                                <action selector="Yesbutton" destination="G9i-Bt-3st" id="vAb-Oc-jMi"/>
+                                <segue destination="p7B-pi-3uJ" kind="push" id="LWZ-nu-SBb"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="BAf-bH-M8B"/>
+                        <button width="1" alignment="center" title="否" id="WMX-Ti-w1H">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                            <connections>
+                                <action selector="Nobutton" destination="G9i-Bt-3st" id="Pps-ZO-mUF"/>
+                                <segue destination="P9z-rr-Wx6" kind="push" id="DIY-m6-eNM"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <segue destination="P9z-rr-Wx6" kind="relationship" relationship="nextPage" id="afc-gR-4Aj"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="521" y="305"/>
+        </scene>
+        <!--Navigation-->
+        <scene sceneID="DVn-bz-NJf">
+            <objects>
+                <controller identifier="Navigation" id="P9z-rr-Wx6" customClass="MainController" customModule="AcheForWatch_Extension">
+                    <items>
+                        <label alignment="left" id="QWB-52-SaA"/>
+                        <label alignment="center" text="请问您哪里不适？" id="6O2-J4-arz"/>
+                        <separator alignment="left" id="Cv7-S3-2ta"/>
+                        <button width="1" alignment="left" title="左上腹，右上腹，全腹" id="Jpo-8d-ta1">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                            <connections>
+                                <segue destination="T20-fx-yx0" kind="push" id="nRF-Yi-Vzc"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="pYr-sV-sJl"/>
+                        <button width="1" alignment="left" title="上腹" id="BOc-mX-xeW">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                        </button>
+                        <separator alignment="left" id="FJV-aX-2pw"/>
+                        <button width="1" alignment="left" title="中腹" id="7XN-xc-awF">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                        </button>
+                        <separator alignment="left" id="Ypv-UY-jme"/>
+                        <button width="1" alignment="left" title="左下腹，下腹" id="gjf-cD-EXi">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                        </button>
+                        <separator alignment="left" id="fgM-N0-bV2"/>
+                        <button width="1" alignment="left" title="右下腹" id="EvI-OY-fDW"/>
+                        <separator alignment="left" id="Dxv-Rz-ywb"/>
+                        <button width="1" alignment="left" title="其他症状" id="aSN-EJ-Kjs">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                        </button>
+                    </items>
+                    <connections>
+                        <segue destination="T20-fx-yx0" kind="relationship" relationship="nextPage" id="eEz-6z-g0d"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="521" y="737.5"/>
+        </scene>
+        <!--Answer1-->
+        <scene sceneID="yBb-8u-Dh9">
+            <objects>
+                <controller identifier="Answer1" id="p7B-pi-3uJ" customClass="ResearchController1" customModule="AcheForWatch_Extension">
+                    <items>
+                        <label height="24.5" alignment="left" text="您可能是……" id="nRQ-dc-ROx"/>
+                        <label width="74" height="20.5" alignment="left" text="急性肠胃炎" id="fG1-UO-bTb"/>
+                        <separator alignment="left" alpha="0.5" id="hYJ-zU-FSl"/>
+                        <label alignment="left" text="建议您" id="6g3-dg-YUr"/>
+                        <label alignment="left" text="补液、注射止吐药、抗菌治疗。" numberOfLines="0" id="9Mc-TG-DFg"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="793" y="305"/>
+        </scene>
+        <!--Research_1-->
+        <scene sceneID="BAX-un-Uvy">
+            <objects>
+                <controller identifier="Research_1" id="T20-fx-yx0" customClass="ResearchController2" customModule="AcheForWatch_Extension">
+                    <items>
+                        <table alignment="left" id="jOV-nA-dTF"/>
+                        <label alignment="center" text="弯腰或者抱膝能否减轻疼痛？" numberOfLines="0" id="F6U-Kr-bHm"/>
+                        <separator alignment="left" id="SVh-b3-b9C"/>
+                        <button width="1" alignment="center" title="是" id="W2I-0M-V8r">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                            <connections>
+                                <action selector="Yesbutton" destination="T20-fx-yx0" id="jwg-it-Xu2"/>
+                                <segue destination="QAs-rJ-aLA" kind="push" id="txr-DS-tZN"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="vcP-kH-nMJ"/>
+                        <button width="1" alignment="center" title="否" id="8y0-T9-R9N">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                            <connections>
+                                <action selector="Nobutton" destination="T20-fx-yx0" id="FsD-HR-jll"/>
+                                <segue destination="bQI-2Z-F9z" kind="push" id="34y-Cl-d5X"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="765" y="656"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="okX-PB-e95">
+            <objects>
+                <controller id="bQI-2Z-F9z">
+                    <items>
+                        <label alignment="center" text="有无发热？" id="0Zk-xJ-z2i"/>
+                        <separator alignment="left" id="fK7-xr-aP0"/>
+                        <button width="1" alignment="left" title="有" id="AzR-BF-gCv">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                            <connections>
+                                <segue destination="S0d-rP-arK" kind="push" id="mow-Ly-Iml"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="M1H-Ld-Equ"/>
+                        <button width="1" alignment="left" title="无" id="AbO-Nm-88y">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                            <connections>
+                                <segue destination="0V6-nm-HTw" kind="push" id="uv7-w8-TaM"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="771" y="964"/>
+        </scene>
+        <!--Tips Controller4-->
+        <scene sceneID="90e-we-KQg">
+            <objects>
+                <controller id="rvJ-Ec-yFk" customClass="TipsController4" customModule="AcheForWatch_Extension">
+                    <items>
+                        <label alignment="left" text="其他" id="OUJ-I2-l19"/>
+                        <separator alignment="left" id="lwS-6U-CUx"/>
+                        <label alignment="left" text="定期食用酸奶或泡菜类天然发酵的食品。其中含有的嗜酸杆菌，对肠道健康非很有利。" numberOfLines="0" id="ven-AD-u9d"/>
+                        <label alignment="left" text="锻炼能够最有效地缓解大多数轻微的消化系统问题，从腹胀到便秘。体育锻炼能够帮助你消化，排出废物。它还能缓解可能引发消化系统问题的各种压力。" numberOfLines="0" id="TAp-2U-8Zj"/>
+                        <label alignment="left" text="人的身体每天需要获得20-35克纤维。选择植物类食物，比如樱桃、葡萄、豆类、全谷类和坚果。这些食物不但能帮助消化、它们会使你产生饱腹感，控制你的食量，从而帮你控制体重。" numberOfLines="0" id="IRH-xM-v7T"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="345" y="1529"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="m8q-X6-EQK">
+            <objects>
+                <controller id="Nx9-7T-DDi">
+                    <items>
+                        <label alignment="left" text="请问您有哪些疼痛情况？" numberOfLines="0" id="oCQ-Aw-0w3"/>
+                        <button width="1" alignment="left" title="钝痛，餐后发生，慢慢缓解" id="dMK-oc-clh">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                        </button>
+                        <separator alignment="left" alpha="0.5" id="eMn-Ev-K09"/>
+                        <button width="1" alignment="left" title="钝痛，空腹痛，进餐环节" id="qHl-T6-wEA">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="557" y="1212"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="TWW-3g-6fj">
+            <objects>
+                <controller id="0V6-nm-HTw">
+                    <items>
+                        <label alignment="left" text="有无呕吐，恶心等症状？" numberOfLines="0" id="WNd-gQ-vnT"/>
+                        <separator alignment="left" alpha="0.5" id="YjD-Sw-Ocv"/>
+                        <button width="1" height="44" alignment="left" title="频繁发作，呕吐后腹痛无缓解" id="M7M-dj-a1X">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                        </button>
+                        <separator alignment="left" alpha="0.5" id="10s-7I-B8I"/>
+                        <button width="1" alignment="left" title="有，呕吐后腹痛缓解" id="OJm-uf-7Sr">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                            <connections>
+                                <segue destination="y8C-we-dYI" kind="push" id="rSl-OR-IaL"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" alpha="0.5" id="U9t-PZ-Bhr"/>
+                        <button width="1" alignment="left" title="无" id="Adz-oy-8iv">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                            <connections>
+                                <segue destination="Nx9-7T-DDi" kind="push" id="oaw-5C-3O0"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="774" y="1233"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="E5h-iM-XwR">
+            <objects>
+                <controller id="y8C-we-dYI"/>
+            </objects>
+            <point key="canvasLocation" x="1004" y="1223"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Raa-S0-7bN">
+            <objects>
+                <controller id="S0d-rP-arK">
+                    <items>
+                        <label alignment="left" text="您可能是……" id="ZsH-98-vSS"/>
+                        <label alignment="left" text="急性胰腺炎" id="N84-J3-uHC"/>
+                        <label alignment="left" text="肠结核" id="XM6-6V-asv"/>
+                        <label alignment="left" text="结核性腹膜炎" id="UEj-ZN-gVI"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1003" y="964"/>
+        </scene>
+        <!--Research Controller3-->
+        <scene sceneID="9jo-s5-3v7">
+            <objects>
+                <controller id="QAs-rJ-aLA" customClass="ResearchController3">
+                    <items>
+                        <label alignment="left" text="您可能是……" id="16h-gV-ZEG"/>
+                        <label alignment="left" text="急性胰腺炎" id="wuT-oO-srW"/>
+                        <separator alignment="left" alpha="0.5" id="JaJ-OQ-YCy"/>
+                        <label alignment="left" text="建议您" id="NGt-d2-eqc"/>
+                        <label alignment="left" text="晶体补液、预防感染、预防感染、胰腺休息、抑制胰腺外分泌和胰酶活性、内镜治疗、手术治疗" numberOfLines="0" id="Kyf-Nc-j0S"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1003" y="653"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="nRF-Yi-Vzc"/>
+        <segue reference="afc-gR-4Aj"/>
+        <segue reference="s2x-mu-Gay"/>
+    </inferredMetricsTieBreakers>
+</document>

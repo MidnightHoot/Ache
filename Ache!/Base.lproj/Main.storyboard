@@ -147,7 +147,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDA-vz-m8b">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDA-vz-m8b" userLabel="BMILabel">
                                         <rect key="frame" x="307" y="50" width="78" height="26"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="26" id="6a1-Zx-max"/>
@@ -226,6 +226,8 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="BMILabel" destination="RDA-vz-m8b" id="vxC-4C-4ye"/>
+                        <outlet property="StepsNumLabel" destination="w9q-Av-gFb" id="NF0-je-lGO"/>
                         <outlet property="acheButton" destination="wDw-k6-oyv" id="V7c-3m-13S"/>
                         <outlet property="imageButton" destination="hFW-c0-mfs" id="0T7-y4-cnY"/>
                         <outlet property="reportButton" destination="EPu-Th-U7C" id="Dah-Sg-e8z"/>
