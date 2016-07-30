@@ -15,7 +15,7 @@ public var SurveyTask: ORKOrderedTask {
     
     let instructionStep = ORKInstructionStep(identifier: "IntroStep")
     instructionStep.title = "欢迎参加本次调查"
-    instructionStep.text = "本次共十道题，您的信息将被保密。"
+    instructionStep.text = "本次调研共十道题，您的信息将被保密。"
     steps += [instructionStep]
     
     //TODO: add name question
