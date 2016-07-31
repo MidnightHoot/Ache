@@ -23,6 +23,7 @@
 		403E51671D4CE6D9002BF036 /* TipsController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E51661D4CE6D9002BF036 /* TipsController4.swift */; };
 		403E51681D4CE6D9002BF036 /* TipsController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E51661D4CE6D9002BF036 /* TipsController4.swift */; };
 		405CB03C1D4C9D0B00ADDB78 /* ResearchController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F609F91D4BC0A7002BCDE2 /* ResearchController1.swift */; };
+		40D29AA41D4D33190021E87D /* HeartRateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D29AA31D4D33190021E87D /* HeartRateManager.swift */; };
 		40F609D61D4BA04C002BCDE2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F609D41D4BA04C002BCDE2 /* Interface.storyboard */; };
 		40F609D81D4BA04C002BCDE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F609D71D4BA04C002BCDE2 /* Assets.xcassets */; };
 		40F609DF1D4BA04C002BCDE2 /* AcheForWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 40F609DE1D4BA04C002BCDE2 /* AcheForWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -108,6 +109,7 @@
 		403E51631D4CE3CE002BF036 /* TipsController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsController3.swift; sourceTree = "<group>"; };
 		403E51661D4CE6D9002BF036 /* TipsController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsController4.swift; sourceTree = "<group>"; };
 		4065BB111D4B5A50002B7150 /* Ache!-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ache!-Bridging-Header.h"; sourceTree = "<group>"; };
+		40D29AA31D4D33190021E87D /* HeartRateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateManager.swift; sourceTree = "<group>"; };
 		40F609D21D4BA04B002BCDE2 /* AcheForWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcheForWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F609D51D4BA04C002BCDE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		40F609D71D4BA04C002BCDE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -190,6 +192,14 @@
 				4065BB111D4B5A50002B7150 /* Ache!-Bridging-Header.h */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		40D29AA21D4D32BC0021E87D /* HeartRate */ = {
+			isa = PBXGroup;
+			children = (
+				40D29AA31D4D33190021E87D /* HeartRateManager.swift */,
+			);
+			name = HeartRate;
 			sourceTree = "<group>";
 		};
 		40F609D31D4BA04C002BCDE2 /* AcheForWatch */ = {
@@ -280,6 +290,7 @@
 		436D28991D43AE030024CF23 /* Ache! */ = {
 			isa = PBXGroup;
 			children = (
+				40D29AA21D4D32BC0021E87D /* HeartRate */,
 				4364E4401D47A502008ADE02 /* ViewController */,
 				430DA1061D43BC5400F8898C /* Storyboard */,
 				430DA1071D43BC6500F8898C /* OtherClass */,
@@ -597,6 +608,7 @@
 				403E515E1D4CD6D9002BF036 /* TipsController1.swift in Sources */,
 				403E51581D4CD156002BF036 /* MainController.swift in Sources */,
 				4364E43F1D47A4F8008ADE02 /* MainViewController.m in Sources */,
+				40D29AA41D4D33190021E87D /* HeartRateManager.swift in Sources */,
 				403E51611D4CE01F002BF036 /* TipsController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
