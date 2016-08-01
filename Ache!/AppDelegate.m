@@ -17,6 +17,30 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+//    
+    self.window = [[UIWindow alloc]init];
+//
+    self.mainViewController = [[MainViewController alloc]initViewController];
+//
+    self.window.rootViewController = self.mainViewController;
+    [self.window makeKeyAndVisible];
+    
+//    UIWindow *queryWindow = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+//    self.queryViewController = [[QueryViewController alloc] initViewController];
+//    
+//    queryWindow.rootViewController = [[FlipSquaresNavigationController alloc]initWithRootViewController:self.queryViewController];
+ 
+    
+    
+    
+    
+//    self.window.rootViewController = [[FlipSquaresNavigationController alloc] initWithRootViewController:self.viewController];
+    //    self.window.rootViewController = [[PixelateNavigationController alloc] initWithRootViewController:self.viewController];
+    
+    
+    
     return YES;
 }
 

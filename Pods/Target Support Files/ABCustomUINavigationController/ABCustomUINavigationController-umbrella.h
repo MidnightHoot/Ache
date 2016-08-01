@@ -2,6 +2,8 @@
 
 #import "NSNumber+ABGenerator.h"
 #import "NSObject+ABExtras.h"
+#import "UIImageView+ABExtras.h"
+#import "UINavigationController+ABExtras.h"
 #import "UIView+ABExtras.h"
 #import "NSArrayMatrix.h"
 #import "BaseControllerAnimatedTransitioningDelegate.h"

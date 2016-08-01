@@ -2,5 +2,8 @@ target 'Ache!' do
 	pod 'AFNetworking'
     pod 'ABCustomUINavigationController'
     pod 'BubbleTransition'
+    pod 'FSLineChart'
+    pod 'ASProgressPopUpView'
 end
 use_frameworks!
+

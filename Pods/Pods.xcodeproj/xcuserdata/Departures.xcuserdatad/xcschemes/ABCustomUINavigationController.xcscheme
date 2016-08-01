@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '83361C50D08B423C9F344881B1B2E0DB'
+               BlueprintIdentifier = '43094146395A9C597000FE05A65F4951'
                BlueprintName = 'ABCustomUINavigationController'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ABCustomUINavigationController.framework'>
