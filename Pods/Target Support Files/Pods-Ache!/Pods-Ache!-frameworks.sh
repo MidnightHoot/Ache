@@ -86,10 +86,14 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/ABCustomUINavigationController/ABCustomUINavigationController.framework"
   install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ASProgressPopUpView/ASProgressPopUpView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/BubbleTransition/BubbleTransition.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/FSLineChart/FSLineChart.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/ABCustomUINavigationController/ABCustomUINavigationController.framework"
   install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ASProgressPopUpView/ASProgressPopUpView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/BubbleTransition/BubbleTransition.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/FSLineChart/FSLineChart.framework"
 fi

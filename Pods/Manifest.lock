@@ -15,18 +15,24 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - ASProgressPopUpView (0.8)
   - BubbleTransition (1.0.3)
+  - FSLineChart (0.1.7)
 
 DEPENDENCIES:
   - ABCustomUINavigationController
   - AFNetworking
+  - ASProgressPopUpView
   - BubbleTransition
+  - FSLineChart
 
 SPEC CHECKSUMS:
   ABCustomUINavigationController: 6069af1d9e6c6d96896199f416b17850f921dfd9
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ASProgressPopUpView: 945c19297da09a625db48a5a37cabd7756916b9b
   BubbleTransition: a7ae6678721406d60f604cbbea1ace505563119d
+  FSLineChart: 1b8d3727e8feb323144126d381184bf1b15e6efc
 
-PODFILE CHECKSUM: 659eb1013476d1d6b0e65fc1e966a9ce5e301463
+PODFILE CHECKSUM: 04cb67838f479d7a6e73dd04bc92c5e791e3c734
 
 COCOAPODS: 1.0.0

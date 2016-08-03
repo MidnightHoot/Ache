@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "FlipSquaresNavigationController.h"
-#import "CubeNavigationController.h"
-@interface QueryViewController :FlipSquaresNavigationController
+#import "UIWindowDelegate.h"
+@import BubbleTransition;
 
+@interface QueryViewController : UIViewController{
+//    NSObject<UIWindowDelegate> *delegate;
+    id<UIWindowDelegate> delegate;
+}
 
 
 
@@ -35,7 +39,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *answerButton02;
 
 /**
- *  选项三，位于（2，1）位置
+ *  选项三，位于（1，2）位置
  */
 @property (weak, nonatomic) IBOutlet UIButton *answerButton03;
 
@@ -52,5 +56,29 @@
  */
 - (IBAction)answerButtonDidPress:(id)sender;
 
+/**
+ *  返回Button，直接返回到BodyViewController
+ */
+@property (weak, nonatomic) IBOutlet UIButton *backButton;
+
+
+/**
+ *  撤销所在的UIWindow
+ *
+ *  @param sender 感觉并没有什么卵用
+ */
+- (IBAction)backButtonDidPress:(id)sender;
+
+
+//@property(nonatomic, retain) NSObject<UIWindowDelegate> *delegate;
+@property(nonatomic, retain) id<UIWindowDelegate> delegate;
+
+
+@property (strong, nonatomic) BubbleTransition *transition;
+
+@property BOOL pushingVC;
+
 -(id)initViewController;
+
+
 @end

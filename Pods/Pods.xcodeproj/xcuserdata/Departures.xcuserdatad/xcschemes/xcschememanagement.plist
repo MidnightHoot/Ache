@@ -14,7 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ASProgressPopUpView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>BubbleTransition.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FSLineChart.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,7 +37,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0D8B16211F1569640044D431DFC1E770</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>1C3436CEA5C3D39764C5F54374794ECB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>43094146395A9C597000FE05A65F4951</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6218FE2B70B49A1A96C5DBEEF8395802</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -37,12 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>83361C50D08B423C9F344881B1B2E0DB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EA90E58DA79539DB6113F8A13CE68C72</key>
+		<key>8BA031E36E18088F4FB5482F8DA8AD4A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -2,7 +2,7 @@
 //  BodyViewController.m
 //  Ache!
 //
-//  Created by Departures on 7/29/16.
+//  Created by Departures on 7/30/16.
 //  Copyright © 2016 MidnightHoot. All rights reserved.
 //
 
@@ -24,7 +24,6 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)performSegueWithIdentifier:(NSString *)identifier sender:(id)sender
 /*
 #pragma mark - Navigation
 
@@ -35,4 +34,63 @@
 }
 */
 
+
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+//    [UIView animateWithDuration:0.5f animations:^{
+//        self.backButton.transform = CGAffineTransformMakeRotation(-M_PI_4*3.0f);
+//    }];
+}
+
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    [UIView animateWithDuration:0.5f animations:^{
+        self.backButton.transform = CGAffineTransformIdentity;
+    }];
+}
+
+
+- (IBAction)stomachButtonDidPress:(id)sender {
+    
+    self.queryWindow =  [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    self.queryViewController = [[QueryViewController alloc] initViewController];
+    
+    self.queryWindow.rootViewController = [[FlipSquaresNavigationController alloc]initWithRootViewController:self.queryViewController];
+    self.queryWindow.windowLevel = UIWindowLevelAlert+1;
+    [self.queryWindow makeKeyAndVisible];
+    self.queryViewController.delegate = self;
+    
+}
+
+-(void)releaseCurrentWindow{
+    NSLog(@"get");
+    NSLog(@"get");
+    NSLog(@"get");
+    NSLog(@"get");
+    NSLog(@"get");
+    NSLog(@"get");
+    NSLog(@"get");
+    NSLog(@"%@",[UIApplication sharedApplication].keyWindow);
+
+    [[UIApplication sharedApplication].keyWindow resignKeyWindow];
+    [self.queryWindow resignKeyWindow];
+    self.queryWindow = nil;
+    [self.view.window makeKeyAndVisible];
+    NSLog(@"Finished");
+    NSLog(@"Finished");
+    NSLog(@"Finished");
+    NSLog(@"Finished");
+    NSLog(@"Finished");
+    NSLog(@"Finished");
+    NSLog(@"Finished");
+    NSLog(@"Finished");
+
+    
+}
 @end

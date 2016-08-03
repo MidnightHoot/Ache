@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CC24A995107E9C0238B06E7 /* Pods_Ache_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E27D8F983F0CD224718076B /* Pods_Ache_.framework */; };
-		431F46361D4B4A2400D2CAFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431F46351D4B4A2400D2CAFB /* CoreGraphics.framework */; };
-		431F46381D4B4A2E00D2CAFB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431F46371D4B4A2E00D2CAFB /* QuartzCore.framework */; };
-		431F463B1D4B809F00D2CAFB /* BodyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 431F463A1D4B809F00D2CAFB /* BodyViewController.m */; };
-		432CD6E71D4A208F000C4D93 /* QueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432CD6E61D4A208F000C4D93 /* QueryViewController.m */; };
-		432CD6E91D4A34D3000C4D93 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432CD6E81D4A34D3000C4D93 /* HealthKit.framework */; };
+		21C663EDFFF63B971DA60D15 /* Pods_Ache_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198D5C15C7DE4AD383FEEBC4 /* Pods_Ache_.framework */; };
+		430514C61D49072D0076628F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430514C51D49072D0076628F /* HealthKit.framework */; };
+		43158D921D4BA777006062D3 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43158D911D4BA777006062D3 /* ResearchKit.framework */; };
+		43158D931D4BA7D9006062D3 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43158D911D4BA777006062D3 /* ResearchKit.framework */; };
+		43158D941D4BA7D9006062D3 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43158D911D4BA777006062D3 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		43158D991D4BA875006062D3 /* QueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43158D981D4BA875006062D3 /* QueryViewController.m */; };
+		435030931D4E2E2E006AC50E /* DiseaseList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 435030921D4E2E2E006AC50E /* DiseaseList.plist */; };
+		435030971D4E38AA006AC50E /* DiseaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 435030961D4E38AA006AC50E /* DiseaseAPI.m */; };
 		4364E43F1D47A4F8008ADE02 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4364E43E1D47A4F8008ADE02 /* MainViewController.m */; };
 		436D289C1D43AE030024CF23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D289B1D43AE030024CF23 /* main.m */; };
 		436D289F1D43AE030024CF23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D289E1D43AE030024CF23 /* AppDelegate.m */; };
@@ -21,9 +23,33 @@
 		436D28AA1D43AE030024CF23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436D28A81D43AE030024CF23 /* LaunchScreen.storyboard */; };
 		436D28B51D43AE030024CF23 /* Ache_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D28B41D43AE030024CF23 /* Ache_Tests.m */; };
 		436D28C01D43AE030024CF23 /* Ache_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D28BF1D43AE030024CF23 /* Ache_UITests.m */; };
+		43AF89531D4C9369001400DA /* SquaresFlipNavigation in Resources */ = {isa = PBXBuildFile; fileRef = 43AF89521D4C9369001400DA /* SquaresFlipNavigation */; };
+		43AF89551D4C9874001400DA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AF89541D4C9874001400DA /* QuartzCore.framework */; };
+		43AF89571D4C987F001400DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AF89561D4C987F001400DA /* CoreGraphics.framework */; };
+		43AF895A1D4CA8CD001400DA /* BubbleTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AF89591D4CA8CD001400DA /* BubbleTransition.framework */; };
+		43AF895D1D4CD407001400DA /* BodyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AF895C1D4CD407001400DA /* BodyViewController.m */; };
+		6E265EF31D4B12AC00330D6E /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E265EF21D4B12AC00330D6E /* ConsentDocument.swift */; };
+		6E265EF51D4B34D800330D6E /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E265EF41D4B34D800330D6E /* ConsentTask.swift */; };
+		6E265EFF1D4B40A200330D6E /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E265EFE1D4B40A200330D6E /* MyViewController.swift */; };
+		6E265F061D4B495F00330D6E /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E265F051D4B495F00330D6E /* SurveyTask.swift */; };
+		6ED0AC811D4B8D2D00161F15 /* SurveyResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED0AC801D4B8D2D00161F15 /* SurveyResults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		431F46451D4BA47700D2CAFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 431F463F1D4BA47700D2CAFB /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B183A5951A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+		431F46471D4BA47700D2CAFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 431F463F1D4BA47700D2CAFB /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
+			remoteInfo = ResearchKitTests;
+		};
 		436D28B11D43AE030024CF23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 436D288F1D43AE030024CF23 /* Project object */;
@@ -40,15 +66,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		43158D951D4BA7D9006062D3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				43158D941D4BA7D9006062D3 /* ResearchKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		198D5C15C7DE4AD383FEEBC4 /* Pods_Ache_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ache_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		430514C41D49069E0076628F /* Ache!.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Ache!.entitlements"; sourceTree = "<group>"; };
-		431F46351D4B4A2400D2CAFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		431F46371D4B4A2E00D2CAFB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		431F46391D4B809F00D2CAFB /* BodyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyViewController.h; sourceTree = "<group>"; };
-		431F463A1D4B809F00D2CAFB /* BodyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyViewController.m; sourceTree = "<group>"; };
-		432CD6E51D4A208F000C4D93 /* QueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryViewController.h; sourceTree = "<group>"; };
-		432CD6E61D4A208F000C4D93 /* QueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryViewController.m; sourceTree = "<group>"; };
-		432CD6E81D4A34D3000C4D93 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		430514C51D49072D0076628F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		43158D911D4BA777006062D3 /* ResearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ResearchKit.framework; sourceTree = "<group>"; };
+		43158D971D4BA875006062D3 /* QueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryViewController.h; sourceTree = "<group>"; };
+		43158D981D4BA875006062D3 /* QueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryViewController.m; sourceTree = "<group>"; };
+		431F463F1D4BA47700D2CAFB /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../../../Downloads/ResearchKit-master 2/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
+		435030921D4E2E2E006AC50E /* DiseaseList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DiseaseList.plist; sourceTree = "<group>"; };
+		435030941D4E3882006AC50E /* UIDiseaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDiseaseDelegate.h; sourceTree = "<group>"; };
+		435030951D4E38AA006AC50E /* DiseaseAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiseaseAPI.h; sourceTree = "<group>"; };
+		435030961D4E38AA006AC50E /* DiseaseAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiseaseAPI.m; sourceTree = "<group>"; };
 		4364E43D1D47A4F8008ADE02 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4364E43E1D47A4F8008ADE02 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		436D28971D43AE030024CF23 /* Ache!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ache!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +108,19 @@
 		436D28BB1D43AE030024CF23 /* Ache!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ache!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		436D28BF1D43AE030024CF23 /* Ache_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ache_UITests.m; sourceTree = "<group>"; };
 		436D28C11D43AE030024CF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E27D8F983F0CD224718076B /* Pods_Ache_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ache_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AF89521D4C9369001400DA /* SquaresFlipNavigation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SquaresFlipNavigation; sourceTree = "<group>"; };
+		43AF89541D4C9874001400DA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		43AF89561D4C987F001400DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43AF89591D4CA8CD001400DA /* BubbleTransition.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BubbleTransition.framework; path = ../../../Desktop/BubbleTransition.framework; sourceTree = "<group>"; };
+		43AF895B1D4CD407001400DA /* BodyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyViewController.h; sourceTree = "<group>"; };
+		43AF895C1D4CD407001400DA /* BodyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyViewController.m; sourceTree = "<group>"; };
+		43AF89611D4D166A001400DA /* UIWindowDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWindowDelegate.h; sourceTree = "<group>"; };
+		6E265EF11D4B12AB00330D6E /* Ache!-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ache!-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E265EF21D4B12AC00330D6E /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
+		6E265EF41D4B34D800330D6E /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
+		6E265EFE1D4B40A200330D6E /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		6E265F051D4B495F00330D6E /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
+		6ED0AC801D4B8D2D00161F15 /* SurveyResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyResults.swift; sourceTree = "<group>"; };
 		CE2CC507C2B6C2909C931D19 /* Pods-Ache!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ache!.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ache!/Pods-Ache!.release.xcconfig"; sourceTree = "<group>"; };
 		F5BC10A5CAADA33C69B8094A /* Pods-Ache!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ache!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ache!/Pods-Ache!.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,10 +130,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				431F46381D4B4A2E00D2CAFB /* QuartzCore.framework in Frameworks */,
-				431F46361D4B4A2400D2CAFB /* CoreGraphics.framework in Frameworks */,
-				432CD6E91D4A34D3000C4D93 /* HealthKit.framework in Frameworks */,
-				0CC24A995107E9C0238B06E7 /* Pods_Ache_.framework in Frameworks */,
+				43AF895A1D4CA8CD001400DA /* BubbleTransition.framework in Frameworks */,
+				43AF89571D4C987F001400DA /* CoreGraphics.framework in Frameworks */,
+				43AF89551D4C9874001400DA /* QuartzCore.framework in Frameworks */,
+				43158D921D4BA777006062D3 /* ResearchKit.framework in Frameworks */,
+				43158D931D4BA7D9006062D3 /* ResearchKit.framework in Frameworks */,
+				430514C61D49072D0076628F /* HealthKit.framework in Frameworks */,
+				21C663EDFFF63B971DA60D15 /* Pods_Ache_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,10 +160,13 @@
 		12BEEF5B10F188CFF2073360 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				431F46371D4B4A2E00D2CAFB /* QuartzCore.framework */,
-				431F46351D4B4A2400D2CAFB /* CoreGraphics.framework */,
-				432CD6E81D4A34D3000C4D93 /* HealthKit.framework */,
-				4E27D8F983F0CD224718076B /* Pods_Ache_.framework */,
+				43AF89591D4CA8CD001400DA /* BubbleTransition.framework */,
+				43AF89561D4C987F001400DA /* CoreGraphics.framework */,
+				43AF89541D4C9874001400DA /* QuartzCore.framework */,
+				43158D911D4BA777006062D3 /* ResearchKit.framework */,
+				431F463F1D4BA47700D2CAFB /* ResearchKit.xcodeproj */,
+				430514C51D49072D0076628F /* HealthKit.framework */,
+				198D5C15C7DE4AD383FEEBC4 /* Pods_Ache_.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,11 +183,42 @@
 		430DA1071D43BC6500F8898C /* OtherClass */ = {
 			isa = PBXGroup;
 			children = (
-				436D289D1D43AE030024CF23 /* AppDelegate.h */,
-				436D289E1D43AE030024CF23 /* AppDelegate.m */,
+				43AF895F1D4D1132001400DA /* Delegate */,
+				43AF89521D4C9369001400DA /* SquaresFlipNavigation */,
+				6E265EF11D4B12AB00330D6E /* Ache!-Bridging-Header.h */,
 				436D28AB1D43AE030024CF23 /* Info.plist */,
+				435030981D4E38B1006AC50E /* API */,
 			);
 			name = OtherClass;
+			sourceTree = "<group>";
+		};
+		43158D961D4BA816006062D3 /* Research-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6E265EF21D4B12AC00330D6E /* ConsentDocument.swift */,
+				6E265EF41D4B34D800330D6E /* ConsentTask.swift */,
+				6E265F051D4B495F00330D6E /* SurveyTask.swift */,
+				6ED0AC801D4B8D2D00161F15 /* SurveyResults.swift */,
+			);
+			name = "Research-Swift";
+			sourceTree = "<group>";
+		};
+		431F46401D4BA47700D2CAFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				431F46461D4BA47700D2CAFB /* ResearchKit.framework */,
+				431F46481D4BA47700D2CAFB /* ResearchKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		435030981D4E38B1006AC50E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				435030951D4E38AA006AC50E /* DiseaseAPI.h */,
+				435030961D4E38AA006AC50E /* DiseaseAPI.m */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 		4364E4401D47A502008ADE02 /* ViewController */ = {
@@ -134,10 +226,11 @@
 			children = (
 				4364E43D1D47A4F8008ADE02 /* MainViewController.h */,
 				4364E43E1D47A4F8008ADE02 /* MainViewController.m */,
-				432CD6E51D4A208F000C4D93 /* QueryViewController.h */,
-				432CD6E61D4A208F000C4D93 /* QueryViewController.m */,
-				431F46391D4B809F00D2CAFB /* BodyViewController.h */,
-				431F463A1D4B809F00D2CAFB /* BodyViewController.m */,
+				6E265EFE1D4B40A200330D6E /* MyViewController.swift */,
+				43158D971D4BA875006062D3 /* QueryViewController.h */,
+				43158D981D4BA875006062D3 /* QueryViewController.m */,
+				43AF895B1D4CD407001400DA /* BodyViewController.h */,
+				43AF895C1D4CD407001400DA /* BodyViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -167,6 +260,7 @@
 		436D28991D43AE030024CF23 /* Ache! */ = {
 			isa = PBXGroup;
 			children = (
+				43158D961D4BA816006062D3 /* Research-Swift */,
 				430514C41D49069E0076628F /* Ache!.entitlements */,
 				4364E4401D47A502008ADE02 /* ViewController */,
 				430DA1061D43BC5400F8898C /* Storyboard */,
@@ -181,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				436D289B1D43AE030024CF23 /* main.m */,
+				435030921D4E2E2E006AC50E /* DiseaseList.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -201,6 +296,17 @@
 				436D28C11D43AE030024CF23 /* Info.plist */,
 			);
 			path = "Ache!UITests";
+			sourceTree = "<group>";
+		};
+		43AF895F1D4D1132001400DA /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				436D289D1D43AE030024CF23 /* AppDelegate.h */,
+				436D289E1D43AE030024CF23 /* AppDelegate.m */,
+				43AF89611D4D166A001400DA /* UIWindowDelegate.h */,
+				435030941D4E3882006AC50E /* UIDiseaseDelegate.h */,
+			);
+			name = Delegate;
 			sourceTree = "<group>";
 		};
 		E03E99672BD788F1B4913A7B /* Pods */ = {
@@ -225,6 +331,7 @@
 				436D28951D43AE030024CF23 /* Resources */,
 				3D8EDE39D32E7ED1D1E2F6EB /* 📦 Embed Pods Frameworks */,
 				7FF26C371FF21F78A88CB5D3 /* 📦 Copy Pods Resources */,
+				43158D951D4BA7D9006062D3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,6 +419,12 @@
 			mainGroup = 436D288E1D43AE030024CF23;
 			productRefGroup = 436D28981D43AE030024CF23 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 431F46401D4BA47700D2CAFB /* Products */;
+					ProjectRef = 431F463F1D4BA47700D2CAFB /* ResearchKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				436D28961D43AE030024CF23 /* Ache! */,
@@ -321,12 +434,31 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		431F46461D4BA47700D2CAFB /* ResearchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResearchKit.framework;
+			remoteRef = 431F46451D4BA47700D2CAFB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		431F46481D4BA47700D2CAFB /* ResearchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResearchKitTests.xctest;
+			remoteRef = 431F46471D4BA47700D2CAFB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		436D28951D43AE030024CF23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43AF89531D4C9369001400DA /* SquaresFlipNavigation in Resources */,
 				436D28AA1D43AE030024CF23 /* LaunchScreen.storyboard in Resources */,
+				435030931D4E2E2E006AC50E /* DiseaseList.plist in Resources */,
 				436D28A71D43AE030024CF23 /* Assets.xcassets in Resources */,
 				436D28A51D43AE030024CF23 /* Main.storyboard in Resources */,
 			);
@@ -402,9 +534,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				436D289F1D43AE030024CF23 /* AppDelegate.m in Sources */,
-				432CD6E71D4A208F000C4D93 /* QueryViewController.m in Sources */,
+				6E265EF31D4B12AC00330D6E /* ConsentDocument.swift in Sources */,
+				43158D991D4BA875006062D3 /* QueryViewController.m in Sources */,
+				6E265EF51D4B34D800330D6E /* ConsentTask.swift in Sources */,
 				436D289C1D43AE030024CF23 /* main.m in Sources */,
-				431F463B1D4B809F00D2CAFB /* BodyViewController.m in Sources */,
+				6E265F061D4B495F00330D6E /* SurveyTask.swift in Sources */,
+				6E265EFF1D4B40A200330D6E /* MyViewController.swift in Sources */,
+				6ED0AC811D4B8D2D00161F15 /* SurveyResults.swift in Sources */,
+				43AF895D1D4CD407001400DA /* BodyViewController.m in Sources */,
+				435030971D4E38AA006AC50E /* DiseaseAPI.m in Sources */,
 				4364E43F1D47A4F8008ADE02 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,14 +687,22 @@
 			baseConfigurationReference = F5BC10A5CAADA33C69B8094A /* Pods-Ache!.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Ache!/Ache!.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Ache!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MidnightHoot.Ache-";
+				PRODUCT_BUNDLE_IDENTIFIER = MidnightHoot.Ache.Ache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ache!/Ache!-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -565,14 +711,21 @@
 			baseConfigurationReference = CE2CC507C2B6C2909C931D19 /* Pods-Ache!.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Ache!/Ache!.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Ache!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MidnightHoot.Ache-";
+				PRODUCT_BUNDLE_IDENTIFIER = MidnightHoot.Ache.Ache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ache!/Ache!-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

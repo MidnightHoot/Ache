@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<array>
+		<array>
+			<string>您是否饮食不当或者暴饮暴食</string>
+			<string>Tips</string>
+			<string>是</string>
+			<string>否</string>
+		</array>
+		<array>
+			<string>您是否有恶心</string>
+		</array>
+	</array>
+	<key>1</key>
+	<array>
+		<string>请问您哪里不适</string>
+	</array>
+	<key>2</key>
+	<array/>
+	<key>3</key>
+	<array/>
+	<key>4</key>
+	<array/>
+	<key>5</key>
+	<array/>
+	<key>Disease</key>
+	<array>
+		<string>结核性腹膜炎</string>
+		<string>胃溃疡</string>
+		<string>十二指肠溃疡</string>
+		<string>溃疡性结肠炎</string>
+		<string>胃食管反流病</string>
+		<string>食管贲门失弛缓症</string>
+		<string>急性胃炎</string>
+		<string>慢性胃炎</string>
+		<string>肠结核</string>
+		<string>克罗恩病</string>
+		<string>功能性消化不良</string>
+		<string>肠易激综合征</string>
+		<string>急性胰腺炎</string>
+		<string>慢性胰腺炎</string>
+		<string>功能型便秘</string>
+		<string>急性腹泻</string>
+		<string>紧张性腹泻</string>
+		<string>阑尾炎</string>
+		<string>急性胆囊炎</string>
+		<string>急性肠胃炎</string>
+	</array>
+</dict>
+</plist>
