@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ABCustomUINavigationController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>BubbleTransition.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>55C02CE164C3FF2404B1C4F6A890077D</key>
+		<key>1C3436CEA5C3D39764C5F54374794ECB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>928353533005A4198EBDA5B700D37B64</key>
+		<key>7372CA79CE92E7AC032175441663EBE4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83361C50D08B423C9F344881B1B2E0DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA90E58DA79539DB6113F8A13CE68C72</key>
 		<dict>
 			<key>primary</key>
 			<true/>

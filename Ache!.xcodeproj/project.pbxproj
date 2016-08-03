@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39BCE406ED1C9F1D95EC3779 /* libPods-Ache!.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC78D06E4A28EBE605BC4A25 /* libPods-Ache!.a */; };
+		0CC24A995107E9C0238B06E7 /* Pods_Ache_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E27D8F983F0CD224718076B /* Pods_Ache_.framework */; };
+		431F46361D4B4A2400D2CAFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431F46351D4B4A2400D2CAFB /* CoreGraphics.framework */; };
+		431F46381D4B4A2E00D2CAFB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431F46371D4B4A2E00D2CAFB /* QuartzCore.framework */; };
+		431F463B1D4B809F00D2CAFB /* BodyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 431F463A1D4B809F00D2CAFB /* BodyViewController.m */; };
+		432CD6E71D4A208F000C4D93 /* QueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432CD6E61D4A208F000C4D93 /* QueryViewController.m */; };
+		432CD6E91D4A34D3000C4D93 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432CD6E81D4A34D3000C4D93 /* HealthKit.framework */; };
 		4364E43F1D47A4F8008ADE02 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4364E43E1D47A4F8008ADE02 /* MainViewController.m */; };
 		436D289C1D43AE030024CF23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D289B1D43AE030024CF23 /* main.m */; };
 		436D289F1D43AE030024CF23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D289E1D43AE030024CF23 /* AppDelegate.m */; };
@@ -36,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		430514C41D49069E0076628F /* Ache!.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Ache!.entitlements"; sourceTree = "<group>"; };
+		431F46351D4B4A2400D2CAFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		431F46371D4B4A2E00D2CAFB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		431F46391D4B809F00D2CAFB /* BodyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyViewController.h; sourceTree = "<group>"; };
+		431F463A1D4B809F00D2CAFB /* BodyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyViewController.m; sourceTree = "<group>"; };
+		432CD6E51D4A208F000C4D93 /* QueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryViewController.h; sourceTree = "<group>"; };
+		432CD6E61D4A208F000C4D93 /* QueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryViewController.m; sourceTree = "<group>"; };
+		432CD6E81D4A34D3000C4D93 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		4364E43D1D47A4F8008ADE02 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4364E43E1D47A4F8008ADE02 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		436D28971D43AE030024CF23 /* Ache!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ache!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,7 +65,7 @@
 		436D28BB1D43AE030024CF23 /* Ache!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ache!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		436D28BF1D43AE030024CF23 /* Ache_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ache_UITests.m; sourceTree = "<group>"; };
 		436D28C11D43AE030024CF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC78D06E4A28EBE605BC4A25 /* libPods-Ache!.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ache!.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E27D8F983F0CD224718076B /* Pods_Ache_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ache_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2CC507C2B6C2909C931D19 /* Pods-Ache!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ache!.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ache!/Pods-Ache!.release.xcconfig"; sourceTree = "<group>"; };
 		F5BC10A5CAADA33C69B8094A /* Pods-Ache!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ache!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ache!/Pods-Ache!.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,7 +75,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39BCE406ED1C9F1D95EC3779 /* libPods-Ache!.a in Frameworks */,
+				431F46381D4B4A2E00D2CAFB /* QuartzCore.framework in Frameworks */,
+				431F46361D4B4A2400D2CAFB /* CoreGraphics.framework in Frameworks */,
+				432CD6E91D4A34D3000C4D93 /* HealthKit.framework in Frameworks */,
+				0CC24A995107E9C0238B06E7 /* Pods_Ache_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +102,10 @@
 		12BEEF5B10F188CFF2073360 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CC78D06E4A28EBE605BC4A25 /* libPods-Ache!.a */,
+				431F46371D4B4A2E00D2CAFB /* QuartzCore.framework */,
+				431F46351D4B4A2400D2CAFB /* CoreGraphics.framework */,
+				432CD6E81D4A34D3000C4D93 /* HealthKit.framework */,
+				4E27D8F983F0CD224718076B /* Pods_Ache_.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +134,10 @@
 			children = (
 				4364E43D1D47A4F8008ADE02 /* MainViewController.h */,
 				4364E43E1D47A4F8008ADE02 /* MainViewController.m */,
+				432CD6E51D4A208F000C4D93 /* QueryViewController.h */,
+				432CD6E61D4A208F000C4D93 /* QueryViewController.m */,
+				431F46391D4B809F00D2CAFB /* BodyViewController.h */,
+				431F463A1D4B809F00D2CAFB /* BodyViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -144,6 +167,7 @@
 		436D28991D43AE030024CF23 /* Ache! */ = {
 			isa = PBXGroup;
 			children = (
+				430514C41D49069E0076628F /* Ache!.entitlements */,
 				4364E4401D47A502008ADE02 /* ViewController */,
 				430DA1061D43BC5400F8898C /* Storyboard */,
 				430DA1071D43BC6500F8898C /* OtherClass */,
@@ -258,6 +282,12 @@
 				TargetAttributes = {
 					436D28961D43AE030024CF23 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 76UCH3GW85;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					436D28AF1D43AE030024CF23 = {
 						CreatedOnToolsVersion = 7.3;
@@ -372,7 +402,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				436D289F1D43AE030024CF23 /* AppDelegate.m in Sources */,
+				432CD6E71D4A208F000C4D93 /* QueryViewController.m in Sources */,
 				436D289C1D43AE030024CF23 /* main.m in Sources */,
+				431F463B1D4B809F00D2CAFB /* BodyViewController.m in Sources */,
 				4364E43F1D47A4F8008ADE02 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,11 +549,14 @@
 			baseConfigurationReference = F5BC10A5CAADA33C69B8094A /* Pods-Ache!.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ache!/Ache!.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Ache!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MidnightHoot.Ache.Ache-";
+				PRODUCT_BUNDLE_IDENTIFIER = "MidnightHoot.Ache-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -530,11 +565,14 @@
 			baseConfigurationReference = CE2CC507C2B6C2909C931D19 /* Pods-Ache!.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ache!/Ache!.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Ache!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MidnightHoot.Ache.Ache-";
+				PRODUCT_BUNDLE_IDENTIFIER = "MidnightHoot.Ache-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
