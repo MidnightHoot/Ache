@@ -10,4 +10,6 @@
 
 @protocol UIDiseaseDelegate <NSObject>
 
+-(NSMutableArray * )getQuestionWithPageNum:(int) pageNum;
+
 @end

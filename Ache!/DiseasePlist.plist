@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<array>
+		<array>
+			<string>弯腰抱膝或前倾能否减轻疼痛？</string>
+			<string>弯腰抱膝或前倾减疼痛减轻常是急性胰腺炎的重要表现，如遇症状，建议您及时就医。</string>
+			<string>是</string>
+			<string>否</string>
+		</array>
+		<array>
+			<string>有无发热？</string>
+			<string>引起发热的原因很多，最常见的是细菌感染，病毒感染，胶原病等。发热对人体有利也有害。发热时人体免疫功能明显增强，这有利于清除病原体和促进疾病的痊愈。而且发热也是疾病的一个标志
+引起发热的原因很多，最常见的是细菌感染，病毒感染，胶原病等。发热对人体有利也有害。发热时人体免疫功能明显增强，这有利于清除病原体和促进疾病的痊愈。而且发热也是疾病的一个标志</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>有无呕吐、恶心等症状？</string>
+			<string>恶心、呕吐可由多种迥然不同的疾病和病理生理机制引起。两者可或不相互伴随。</string>
+			<string>有，频繁发作，呕吐后腹痛无缓解</string>
+			<string>有，呕吐后腹痛缓解</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>请问您有哪些疼痛情况？</string>
+			<string>胃痛位于中上腹部。肝胆疾患疼痛位于右上腹。急性阑尾炎疼痛常位于McBurney点。小肠绞痛位于脐周。结肠绞痛常位于下腹部。膀胱痛位于耻骨上部。急性下腹部痛也见于急性盆腔炎症。</string>
+			<string>钝痛、餐后发生，慢慢缓解</string>
+			<string>钝痛、空腹痛，进餐环节</string>
+			<string>无法排除慢性胃炎无法排除慢性胃炎</string>
+		</array>
+		<array>
+			<string>疼痛是否经常发生于饭后或半夜？或疼痛有时转到右侧肩膀？疼痛是否经常发生于饭后或半夜？或疼痛有时转到右侧肩膀？</string>
+			<string>胆囊炎发作时首先会出现右上腹疼痛，多为持续性胀痛，随着病情的进展，疼痛可加重，呈放射性，最常见的放射部位是右肩部和右肩胛骨下角等处。</string>
+			<string>是</string>
+			<string>否</string>
+		</array>
+	</array>
+	<key>1</key>
+	<array>
+		<array>
+			<string>有无反流现象？</string>
+			<string>胃食管反流是指胃内容物，包括从十二指肠流入胃的胆盐和胰酶等反流入食管。</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>有无烧心现象？</string>
+			<string>烧心是指胃部感觉烧灼，多由胃酸过多刺激胃粘膜引起；胸骨下部后方的一种烧灼感，通常与食管下端或胃贲门的痉挛有关。</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>有无咽下困难？</string>
+			<string>吞咽困难是指食物从口腔至胃、贲门运送过程中受阻而产生咽部、胸骨后或食管部位的梗阻停滞感觉。</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>弯腰抱膝或前倾能否减轻疼痛？</string>
+			<string>0 0</string>
+			<string>能</string>
+			<string>不能</string>
+		</array>
+		<array>
+			<string>有无呕血、黑便等症状？</string>
+			<string>呕血是指患者呕吐血液，由于上消化道急性出血所致。血液从肛门排出，粪便颜色呈鲜红、暗红或柏油样（黑便），均称为便血。便血多见于下消化道出血。</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>请问您有哪些疼痛情况？</string>
+			<string>0 0</string>
+			<string>钝痛、餐后发生，慢慢缓解</string>
+			<string>钝痛、空腹痛，进餐环节</string>
+		</array>
+		<array>
+			<string>有无餐后饱胀或早饱感？</string>
+			<string>0 0</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>疼痛是否经常发生于饭后或半夜？或疼痛有时转到右侧肩膀？</string>
+			<string>胆囊炎发作时首先会出现右上腹疼痛，多为持续性胀痛，随着病情的进展，疼痛可加重，呈放射性，最常见的放射部位是右肩部和右肩胛骨下角等处。
+</string>
+			<string>是</string>
+			<string>否</string>
+		</array>
+	</array>
+	<key>2</key>
+	<array>
+		<array>
+			<string>您有以下哪些症状？</string>
+			<string>饭后慢慢散个步，不但可帮助食物的消化，而且可以让你整个人放轻松。</string>
+			<string>腹泻</string>
+			<string>便秘</string>
+			<string>恶心、呕吐</string>
+			<string>腹块</string>
+		</array>
+		<array>
+			<string>您是否有脂肪泻？</string>
+			<string>典型脂肪泻，粪便色淡，量多，油脂状或泡沫状，多具恶臭，大便次数从数次到十余次不等，有时呈间歇性腹泻。可有腹部胀满、食欲不振等，但腹痛较少见。</string>
+			<string>是</string>
+			<string>否</string>
+		</array>
+		<array>
+			<string>请问您有无腹泻与便秘交替的情况？</string>
+			<string>腹泻与便秘交替是指一段时期内，不是便秘就是腹泻，两者交替出现。有时连续几天便秘，然后突然就腹泻。如果出现腹泻与便秘交换时，应警惕结肠炎。</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>有无餐后饱胀或早饱感？</string>
+			<string>0 0</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>6个月前开始出现症状，而近3个月满足以下哪些症状？ 至少25%的排便感到费力至少25%的排便为干球状便或硬便至少25%的排便有不尽感至少25%的排便有肛门直肠梗阻感至少25%的排便需要手法帮助排便&lt;3次/周</string>
+			<string>便秘是临床常见的复杂症状，而不是一种疾病，主要是指排便次数减少、粪便量减少、粪便干结、排便费力等。必须结合粪便的性状、本人平时排便习惯和排便有无困难作出有无便秘的判断。</string>
+			<string>超过2个</string>
+			<string>不超过2个</string>
+		</array>
+	</array>
+	<key>3</key>
+	<array>
+		<array>
+			<string>有无反流现象？</string>
+			<string>胃食管反流是指胃内容物，包括从十二指肠流入胃的胆盐和胰酶等反流入食管。</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>有无烧心现象？</string>
+			<string>烧心是指胃部感觉烧灼，多由胃酸过多刺激胃粘膜引起；胸骨下部后方的一种烧灼感，通常与食管下端或胃贲门的痉挛有关。</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>有无咽下困难？</string>
+			<string>吞咽困难是指食物从口腔至胃、贲门运送过程中受阻而产生咽部、胸骨后或食管部位的梗阻停滞感觉。</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>有无发热？</string>
+			<string>引起发热的原因很多，最常见的是细菌感染，病毒感染，胶原病等。发热对人体有利也有害。发热时人体免疫功能明显增强，这有利于清除病原体和促进疾病的痊愈。而且发热也是疾病的一个标志</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>请问您有哪些疼痛情况？</string>
+			<string>胃痛位于中上腹部。肝胆疾患疼痛位于右上腹。急性阑尾炎疼痛常位于McBurney点。小肠绞痛位于脐周。结肠绞痛常位于下腹部。膀胱痛位于耻骨上部。急性下腹部痛也见于急性盆腔炎症。</string>
+			<string>钝痛、餐后发生，慢慢缓解</string>
+			<string>钝痛、空腹痛，进餐环节</string>
+		</array>
+	</array>
+	<key>4</key>
+	<array>
+		<array>
+			<string>有无发热？</string>
+			<string>引起发热的原因很多，最常见的是细菌感染，病毒感染，胶原病等。发热对人体有利也有害。发热时人体免疫功能明显增强，这有利于清除病原体和促进疾病的痊愈。而且发热也是疾病的一个标志</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>是否最近3个月症状发生至少3日？</string>
+			<string>定期食用酸奶或泡菜类天然发酵的食品。其中含有的嗜酸杆菌，对肠道健康非很有利。</string>
+			<string>是</string>
+			<string>否</string>
+		</array>
+		<array>
+			<string>以下症状你有几例？：排便后症状改善发作时伴有排便频率的改变发作时伴有粪便性状外观的改变</string>
+			<string>人的身体每天需要获得20-35克纤维。选择植物类食物，比如樱桃、葡萄、豆类、全谷类和坚果。这些食物不但能帮助消化、它们会使你产生饱腹感，控制你的食量，从而帮你控制体重。</string>
+			<string>两个及以上</string>
+			<string>两个以下</string>
+		</array>
+		<array>
+			<string>有无肉眼可见的粘液脓血便？</string>
+			<string>大便中有脓状物质或红色血量覆盖，称脓血便。肠道有炎症或受外界刺激，如细菌性肠炎，炎症性肠炎均可以造成肠道的粘膜受损，才会出现脓血便。</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+	</array>
+	<key>5</key>
+	<array>
+		<array>
+			<string>请问您有无腹泻与便秘交替的情况？</string>
+			<string>腹泻与便秘交替是指一段时期内，不是便秘就是腹泻，两者交替出现。有时连续几天便秘，然后突然就腹泻。如果出现腹泻与便秘交换时，应警惕结肠炎。</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>有无发热？</string>
+			<string>引起发热的原因很多，最常见的是细菌感染，病毒感染，胶原病等。发热对人体有利也有害。发热时人体免疫功能明显增强，这有利于清除病原体和促进疾病的痊愈。而且发热也是疾病的一个标志
+</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>有无腹泻？</string>
+			<string>0 0</string>
+			<string>有</string>
+			<string>无</string>
+		</array>
+		<array>
+			<string>是否右髂前上棘与脐部连线外 1/3处疼痛厉害？</string>
+			<string>0 0</string>
+			<string>是</string>
+			<string>否</string>
+		</array>
+	</array>
+	<key>Disease</key>
+	<array>
+		<string>结核性腹膜炎</string>
+		<string>胃溃疡</string>
+		<string>十二指肠溃疡</string>
+		<string>溃疡性结肠炎</string>
+		<string>胃食管反流病</string>
+		<string>食管贲门失弛缓症</string>
+		<string>急性胃炎</string>
+		<string>慢性胃炎</string>
+		<string>肠结核</string>
+		<string>克罗恩病</string>
+		<string>功能性消化不良</string>
+		<string>肠易激综合征</string>
+		<string>急性胰腺炎</string>
+		<string>慢性胰腺炎</string>
+		<string>功能型便秘</string>
+		<string>急性腹泻</string>
+		<string>紧张性腹泻</string>
+		<string>阑尾炎</string>
+		<string>急性胆囊炎</string>
+		<string>急性肠胃炎</string>
+	</array>
+</dict>
+</plist>

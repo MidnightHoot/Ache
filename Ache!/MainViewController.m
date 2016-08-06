@@ -63,6 +63,13 @@
     self.sleepTimeProgressView.tintColor  = [UIColor greenColor];
     
     
+    
+    DiseaseAPI *test = [[DiseaseAPI alloc]initWithLocation:0];
+    [test getQuestionWithPageNum:2];
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

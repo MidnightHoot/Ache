@@ -13,7 +13,7 @@
 		43158D931D4BA7D9006062D3 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43158D911D4BA777006062D3 /* ResearchKit.framework */; };
 		43158D941D4BA7D9006062D3 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43158D911D4BA777006062D3 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		43158D991D4BA875006062D3 /* QueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43158D981D4BA875006062D3 /* QueryViewController.m */; };
-		435030931D4E2E2E006AC50E /* DiseaseList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 435030921D4E2E2E006AC50E /* DiseaseList.plist */; };
+		435030931D4E2E2E006AC50E /* DiseasePlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 435030921D4E2E2E006AC50E /* DiseasePlist.plist */; };
 		435030971D4E38AA006AC50E /* DiseaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 435030961D4E38AA006AC50E /* DiseaseAPI.m */; };
 		4364E43F1D47A4F8008ADE02 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4364E43E1D47A4F8008ADE02 /* MainViewController.m */; };
 		436D289C1D43AE030024CF23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D289B1D43AE030024CF23 /* main.m */; };
@@ -88,7 +88,7 @@
 		43158D971D4BA875006062D3 /* QueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryViewController.h; sourceTree = "<group>"; };
 		43158D981D4BA875006062D3 /* QueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryViewController.m; sourceTree = "<group>"; };
 		431F463F1D4BA47700D2CAFB /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../../../Downloads/ResearchKit-master 2/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
-		435030921D4E2E2E006AC50E /* DiseaseList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DiseaseList.plist; sourceTree = "<group>"; };
+		435030921D4E2E2E006AC50E /* DiseasePlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DiseasePlist.plist; sourceTree = "<group>"; };
 		435030941D4E3882006AC50E /* UIDiseaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDiseaseDelegate.h; sourceTree = "<group>"; };
 		435030951D4E38AA006AC50E /* DiseaseAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiseaseAPI.h; sourceTree = "<group>"; };
 		435030961D4E38AA006AC50E /* DiseaseAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiseaseAPI.m; sourceTree = "<group>"; };
@@ -275,7 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				436D289B1D43AE030024CF23 /* main.m */,
-				435030921D4E2E2E006AC50E /* DiseaseList.plist */,
+				435030921D4E2E2E006AC50E /* DiseasePlist.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -458,7 +458,7 @@
 			files = (
 				43AF89531D4C9369001400DA /* SquaresFlipNavigation in Resources */,
 				436D28AA1D43AE030024CF23 /* LaunchScreen.storyboard in Resources */,
-				435030931D4E2E2E006AC50E /* DiseaseList.plist in Resources */,
+				435030931D4E2E2E006AC50E /* DiseasePlist.plist in Resources */,
 				436D28A71D43AE030024CF23 /* Assets.xcassets in Resources */,
 				436D28A51D43AE030024CF23 /* Main.storyboard in Resources */,
 			);

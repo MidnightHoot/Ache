@@ -12,6 +12,10 @@
 #import "ASPopUpView.h"
 #import "ASProgressPopUpView.h"
 
+
+#import "DiseaseAPI.h"
+
+
 @import BubbleTransition;
 
 @interface MainViewController : UIViewController
